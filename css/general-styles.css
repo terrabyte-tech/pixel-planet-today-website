@@ -1,0 +1,369 @@
+/****************/
+/*page styles*/
+*,
+*:before,
+*:after{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  scroll-behavior: inherit;
+}
+
+*::selection{
+  color:#333333;
+	background-color:white;
+}
+*::-moz-selection{
+  color:#333333;
+	background-color: white;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+  background-color:#222222;
+  color:white;  
+  font-family: 'VT323', monospace;
+  font-size:22px;
+  line-height:1.3em;
+  letter-spacing:1px;
+  transition:opacity 1s;
+  width:100vw;
+  overflow-x:hidden;
+  cursor: url("../img/ui/arrow-pointer-cursor.png"), default;
+}
+.scroll-manager{
+  width:100vw;
+  overflow-x:hidden;
+}
+
+
+/* adaptive views */
+.show-for-desktop,
+.show-for-tablet
+.show-for-mobile{
+  display:none;
+}
+/* .show-for-mobile{
+
+}
+.show-for-tablet{
+  
+}
+.show-for-desktop{
+
+} */
+/* desktop */
+@media only screen and (min-width:1220px){
+  .show-for-desktop{
+    display:block;
+  }
+}
+/*tablet*/
+@media only screen and (min-width:615px) and (max-width:1220px){
+  .show-for-tablet{
+    display:block;
+  }
+}
+/*mobile*/
+@media only screen and (max-width:615px){
+  .show-for-mobile{
+    display:block;
+  }
+}
+
+
+/*****************/
+/*page structure*/
+section{
+  position:relative;
+  min-height:100vh;
+  /* overflow:hidden; */
+}
+.section-content{
+  max-width:1200px;
+  margin:0 auto;
+  padding:50px;
+}
+@media only screen and (max-width:615px){
+  .section-content{
+    padding:40px;
+  }
+}
+@media only screen and (max-height:500px){
+  section{
+    min-height:800px;
+  }
+}
+
+
+
+
+
+
+
+/*********************/
+/*shared native element styles*/
+/* headers*/
+/*section large headers*/
+h1{
+  font-family: 'Press Start 2P', sans-serif;
+  text-transform: uppercase;
+  font-size:30px;
+  margin-bottom:50px;
+  line-height:1.5em;
+  letter-spacing:2px;
+}
+/*hero question, how to support the project*/
+h2{
+  font-family: 'Press Start 2P', sans-serif;
+  text-transform: uppercase;
+  font-size:18px;
+  margin-bottom:20px;
+  letter-spacing:1px;
+}
+/*hero options*/
+h3{
+  font-family: 'Press Start 2P', sans-serif;
+  text-transform: uppercase;
+  font-size:14px;
+  line-height:1em;
+  letter-spacing:1px;
+}
+/* paragraph */
+p{
+  margin-bottom:20px;
+}
+p:last-child{
+  margin-bottom:0;
+}
+/* images */
+img{
+  user-select: none;
+}
+/* links */
+a{
+  color:currentColor;
+  text-decoration:none;
+  cursor: url("../img/ui/finger-pointer-cursor.png"), pointer;
+  user-select: none;
+}
+a.standard-link,
+a.text-link{
+	transform:scale(1);
+	position:relative;
+	display:inline-block;
+	transition:.25s;
+}
+a.standard-link:after,
+a.text-link:after{
+	content:"";
+	opacity:1;
+	position:absolute;
+	left:0;
+	top:calc(100% - 2px);
+	width:100%;
+	height:3px;
+	background-color:currentColor;
+  pointer-events: none;
+}
+a.standard-link:hover:after,
+a.text-link:hover:after{
+	animation:hoverLink .55s;
+}
+@keyframes hoverLink{
+	/* fade out */
+	0%, 24%{
+    width:0px;
+	}
+	25%, 29%{
+    width:10%;
+	}
+	30%, 54%{
+    width:25%;
+	}
+	55%, 79%{
+    width:50%;
+	}
+	80%, 100%{
+		width:100%;
+	}
+}
+a.standard-link:active,
+a.text-link:active{
+	transform:scale(.95);
+}
+@media only screen and (max-width:615px){
+  h1{
+    font-size:25px;
+    margin-bottom:30px;
+  }
+}
+
+/* form element styles */
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+  color:inherit;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size:inherit;
+  width:100%;
+  display:block;
+  background-color:transparent;
+  max-width:100%;
+  padding-bottom:10px;
+  border:none;
+  border-bottom:3px solid currentColor;
+  text-overflow:ellipsis;
+  /* font-size:15px; */
+}
+input:focus{
+  outline:none;
+}
+:placeholder{
+  color:rgba(255,255,255,.5);
+}
+::-webkit-input-placeholder{
+  color:rgba(255,255,255,.5);
+}
+::-moz-placeholder{
+  color:rgba(255,255,255,.5);
+}
+
+.button-container{
+  position: relative;
+}
+button,
+input[type="submit"]{
+  display:inline-block;
+  font-family: 'Press Start 2P', sans-serif;
+  text-transform:uppercase;
+  color:inherit;
+  background-color:transparent;
+  border:3px solid currentColor;
+  padding:10px;
+  font-size:15px;
+  cursor: url("../img/ui/finger-pointer-cursor.png"), pointer;
+  user-select: none;
+}
+
+button:hover,
+input[type="submit"]:hover,
+button.selected{
+  background-color:rgba(255,255,255,.5);
+}
+button:active,
+input[type="submit"]:active{
+  background-color:white;
+  color:#e3e3e3;
+}
+button.primary{
+  background-color:rgba(0,0,0,.35);
+}
+button.primary:hover{
+  background-color:rgba(0,0,0,.55);
+}
+button.primary:active{
+  background-color:rgba(0,0,0,.15);
+
+}
+
+
+/***************************/
+/*custom element/class styles*/
+/*when javascript isn't enabled, toast message*/
+.toast-message{
+  z-index:900;
+  position:absolute;
+  top:10px;
+  left:50%;
+  transform:translateX(-50%);
+  background-color:#db2a2a;
+  color:white;
+  padding:10px 20px 12px 20px;
+  border-radius:5px;
+}
+
+/*content styles*/
+.strikethru{
+  display:inline-block;
+  position:relative;
+}
+.strikethru:after{
+  content: "";
+  display: block;
+  width: 120%;
+  height: .25em;
+  background-color: currentColor;
+  position: absolute;
+  top: .5em;
+  left: -10%;
+}
+.ignore-clicks{
+  pointer-events:none;
+}
+
+.pixel-social-icon{
+  background-image:url("../img/icons/social-spritesheet.png");
+  background-size: 600%;
+  background-repeat: no-repeat;
+  width:40px;
+  height:40px;
+  display:inline-block;
+  vertical-align:middle;
+  margin:0 3px;
+}
+
+/* icons from spritesheet (hover states are determined in footer-section-styles and links-styles) */
+#instagram-icon{
+  background-position:-2px 0px;
+}
+#facebook-icon{
+  background-position:-198px 0px;
+}
+#wdht-icon{
+  background-position:-41px -79px;
+}
+
+#twitter-icon{
+  background-position:-41px -158px;
+}
+#tiktok-icon{
+  background-position:-2px -158px;
+}
+
+#giphy-icon{
+  background-position:-2px -79px;
+}
+#tumblr-icon{
+  background-position:-159px 0px;
+}
+#shop-icon{
+  background-position:-80px 0px;
+}
+#website-icon{
+  background-position:-119px -79px;
+}
+#newsletter-icon{
+  background-position:-159px -79px;
+}
+#survey-icon{
+  background-position:-198px -79px;
+}
+#generic-link-icon{
+  background-position:-198px -158px;
+}
+#blog-icon{
+  background-position:-80px -79px;
+}
+#terrabyte-icon{
+  background-position:-119px -158px;
+}
+#pinekeepers-icon{
+  background-position:-159px -158px;
+}

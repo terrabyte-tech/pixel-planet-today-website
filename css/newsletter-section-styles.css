@@ -1,0 +1,87 @@
+/* Newsletter Page Section Styles */
+#newsletter{
+  background-color: #5ccaf2;
+}
+#newsletter .section-content{
+  min-height:100vh;
+}
+
+.city-trees{
+  position:absolute;
+  bottom:0;
+  left:-30px;
+  width:370px;
+  height:370px;
+  background-image: url("../img/newsletter-section-assets/nature-city.png");
+}
+.city{
+  position:absolute;
+  bottom:30px;
+  left:-30px;
+  width:370px;
+  height:370px;
+  background-image: url("../img/newsletter-section-assets/city-half.png");
+  background-position:bottom;
+}
+.trees{
+  position:absolute;
+  bottom:30px;
+  right:0px;
+  width:370px;
+  height:370px;
+  background-image: url("../img/newsletter-section-assets/trees-half.png");
+  background-position:bottom;
+}
+.green-block{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:30px;
+  background-color:#388841;
+}
+
+.newsletter-container{
+  max-width:500px;
+  position:relative;
+}
+.newsletter-form{
+  /* margin-left:50px; */
+  margin-top:50px;
+}
+
+#hubspot-newsletter-form{
+  /* display:none; */
+  background-color:white;
+  border-radius:5px;
+  padding:20px;
+}
+iframe{
+  max-width:100%;
+}
+
+#newsletter-subscriber-form{
+  /* display:none; */
+}
+.form-row{
+  margin-bottom:20px;
+}
+.form-row label{
+  margin-right:10px;
+}
+.force-one-line{
+  display:inline-block;
+}
+
+
+
+/* custom desktop */
+@media only screen and (max-width:1200px){
+  .city{
+    left:auto;
+    right:70vw;
+  }
+  .trees{
+    right:auto;
+    left:70vw;
+  }
+}

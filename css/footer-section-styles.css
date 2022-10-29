@@ -1,0 +1,175 @@
+/*footer*/
+footer{
+  background-color:#222222;
+  font-size:18px;
+}
+footer a.text-link:after{
+  height:2px;
+}
+footer section{
+  height:auto;
+  min-height:auto;
+}
+footer .section-content{
+  max-width:1200px;
+  padding:40px 50px;
+}
+
+/*eco footer*/
+#cookie-footer{
+  background-color:#388841cc;
+  color:white;
+}
+
+/* footer logos */
+.footer-logos-container{
+  /* margin-bottom:20px; */
+}
+.footer-logos-container > *{
+  margin-right:20px;
+  margin-bottom:0;
+}
+
+.footer-logo{
+  height:35px;
+}
+.footer-logo.ppt-logo{
+  background-image:url('../img/pixel-planet-today-white-lettering.png');
+  width:150px;
+}
+.footer-logo.tb-logo{
+  background-image:url('../img/terrabyte-white-pixel-logo.png');
+  width:200px;
+}
+
+/*pixel icons*/
+/* i don't believe this is used anymore..? */
+a.pixel-icon-link,
+.pixel-icon-link{
+  width:40px;
+  height:40px;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+/*  */
+/* icons from spritesheet (default states are determined in general-styles) */
+#instagram-icon:hover{
+  background-position:-2px -42px;
+}
+#facebook-icon:hover{
+  background-position:-198px -42px;
+}
+#wdht-icon:hover{
+  background-position:-41px -121px;
+}
+#twitter-icon:hover{
+  background-position:-41px -200px;
+}
+#tiktok-icon:hover{
+  background-position:-2px -200px;
+}
+
+#giphy-icon:hover{
+  background-position:-2px -121px;
+}
+#tumblr-icon:hover{
+  background-position:-159px -42px;
+}
+#shop-icon:hover{
+  background-position:-80px -42px;
+}
+#blog-icon:hover{
+  background-position:-80px -121px;
+}
+
+/* company links/additional links */
+.company-links-container{
+  margin:50px 0 30px 0;
+}
+
+#footer-copyright-container{
+  margin-right:30px;
+}
+
+/* website carbon */
+#wcb{
+  font-size:22px!important;
+  color:white!important;
+  font-weight:normal!important;
+}
+#wcb #wcb_2, #wcb #wcb_a, #wcb #wcb_g{
+  font-family:inherit!important;
+}
+#wcb #wcb_g{
+  border-radius:0!important;
+  background-color:transparent!important;
+  border-color:white!important;
+}
+#wcb #wcb_a{
+  font-weight:normal!important;
+  color:#222222!important;
+  background-color:white!important;
+  border-color:white!important;
+  border-radius:0!important;
+}
+/*  */
+
+/* responsive styles */
+@media only screen and (max-width:800px){
+  #logos-social-footer{
+    flex-wrap:Wrap;
+  }
+  #footer-social-container{
+    justify-content:flex-start;
+    margin-top:20px;
+  }
+
+  #copyright-social-footer{
+    flex-wrap:wrap;
+  }
+  #footer-copyright-container{
+    margin-top:30px;
+    order:2;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width:615px){
+  footer .section-content{
+    padding: 40px;
+  }
+  
+  .footer-logo{
+    height:35px;
+  }
+  .footer-logo.ppt-logo{
+    width:108px;
+  }
+  .footer-logo.tb-logo{
+    width:175px;
+  }
+  #wcb{
+    font-size:inherit!important;
+  }
+}
+/* extra small custom mobile */
+@media only screen and (max-width:400px){
+  #copyright-social-footer{
+    padding:0;
+  }
+  #footer-copyright-container{
+    /* padding:40px 40px 0 40px; */
+    margin-right:0;
+  }
+  #footer-social-container{
+    justify-content:center;
+    padding-bottom:40px;
+  }
+  .footer-logos-container > *{
+    display:none;
+  }
+  .footer-logos-container > .footer-logo.ppt-logo{
+    display:block;
+  }
+}

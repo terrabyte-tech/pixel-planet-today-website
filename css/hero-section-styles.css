@@ -1,0 +1,320 @@
+/*Home Page/Hero Section Element Styles*/
+/*hero section*/
+#hero{
+  background-image: url("../img/hero-assets/night-sky.png");
+  background-repeat: repeat;
+  height: 100vh;
+  min-height:600px;
+}
+
+#logo{
+  background-image:url("../img/hero-assets/anim-planet-final-with-lettering-trans.gif");
+  background-size:100%;
+  position:absolute;
+  top:40%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  width:100%;
+  max-width:450px;
+  height:300px;
+}
+
+#hero-action{
+  width:100%;
+  max-width:1000px;
+  position:absolute;
+  text-align:center;
+  left:50%;
+  bottom:8%;
+  transform: translateX(-50%);
+  padding:20px 50px;
+}
+.hero-option{
+  max-width:100px;
+  position:relative;
+  padding:10px;
+  margin:20px 50px;
+  background-color:#222222;
+}
+
+.selection-arrow{
+  background-image:url("../img/ui/right-arrow-anim.gif");
+  display:inline-block;
+  width:16px;
+  height:16px;
+  opacity:0;
+  position:absolute;
+  top:8px;
+  left:0;
+}
+.hero-option:last-child .selection-arrow{
+  left:3px;
+}
+.hero-option:hover .selection-arrow{
+  opacity:1;
+}
+
+
+/*Home Page Section Assets*/
+.astronaut-link{
+  display:block;
+}
+.astronaut{
+  position:absolute;
+  bottom:0;
+  right:0;
+  transform:rotate(10deg) scaleX(-1);
+  background-image:url("../img/hero-assets/Astronaut-bob.gif");
+  width:300px;
+  height:300px;
+}
+.astronaut:before{
+  content:"";
+  display:block;
+  position:absolute;
+  top: -50px;
+  left: calc(100% - 140px);
+  width: 150px;
+  height: 150px;
+  transform: rotate(0deg) scaleX(-1);
+  background-image:url("../img/hero-assets/shop-speech-bubble.png");
+}
+
+.galaxy{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: -70px;
+  right: -55px;
+  transform: rotate(30deg);
+  background-image:url("../img/hero-assets/galaxy.png");
+}
+.star-cluster-1{
+  position:absolute;
+  top:0;
+  right:30px;
+  width:200px;
+  height:200px;
+  background-image:url("../img/hero-assets/star-cluster-1.png");
+}
+.star-cluster-2{
+  position:absolute;
+  top:0;
+  right:75px;
+  width:200px;
+  height:200px;
+  background-image:url("../img/hero-assets/star-cluster-2.png");
+}
+
+.star-group *:nth-child(2){
+  top: -50px;
+  right: -50px;
+}
+.star-group *:nth-child(3){
+  top: -25px;
+  right: -70px;
+}
+.star-group *:nth-child(4){
+  top: -60px;
+  right: 80px;
+}
+.star-group *:nth-child(5){
+  top: -50px;
+  right: 155px;
+}
+.star-group *:nth-child(6){
+  right: -40px;
+  top: 50px;
+}
+
+.shooting-star{
+  position:absolute;
+  top:0;
+  left:0;
+  width:400px;
+  height:400px;
+  background-image:url("../img/hero-assets/shooting-star-line.gif");
+}
+.shooting-star:first-child{
+  background-image:url("../img/hero-assets/shooting-star-line.gif");
+}
+.shooting-star:nth-child(2){
+  width:350px;
+  height:350px;
+  background-image:url("../img/hero-assets/shooting-star-line-delayed-2.gif");
+}
+.shooting-star:nth-child(3){
+  width:200px;
+  height:200px;
+  background-image:url("../img/hero-assets/shooting-star-line-delayed.gif");
+}
+
+.moon{
+  position:absolute;
+  top: -60px;
+  left: 12%;
+  width:450px;
+  height:450px;
+  background-image:url("../img/hero-assets/cheese-moon.png");
+}
+.sun{
+  position:absolute;
+  top: -16%;
+  left: 40%;
+  width: 350px;
+  height: 350px;
+  background-image:url("../img/hero-assets/tiny-sun.png");
+}
+.saturnish{
+  position:absolute;
+  bottom: -55px;
+  left: -6%;
+  width: 350px;
+  height: 350px;
+  background-image:url("../img/hero-assets/saturn-ish.png");
+}
+.mars{
+  position:absolute;
+  top: 36%;
+  left: 70%;
+  width: 60px;
+  height: 60px;
+  background-image:url("../img/hero-assets/mars.png");
+}
+.asteroid-belt{
+  position:absolute;
+  bottom: -43%;
+  left: 0%;
+  height: 600px;
+  width: 800px;
+  z-index:10;
+  pointer-events: none;;
+  background-image:url("../img/hero-assets/asteroidbelt-taper.png");
+}
+.asteroid-belt-corner{
+  position:absolute;
+  top: 0%;
+  right: 0%;
+  height: 600px;
+  width: 600px;
+  background-image:url("../img/hero-assets/asteroidbelt-corner.png");
+}
+
+
+/*****************/
+/*responsiveness*/
+/* large tablet */
+@media only screen and (max-width:1220px){
+  .astronaut{
+    bottom: 20%;
+    right: -5%;
+  }
+  .mars{
+    opacity:0;
+  }
+  .moon{
+    left:9%;
+  }
+}
+/*tablet*/
+@media only screen and (max-width:865px) and (max-height:700px){
+  .moon{
+    left:4%;
+    top:-6%;
+    width:350px;
+    height:350px;
+  }
+}
+@media only screen and (max-height:650px){
+  .moon{
+    left:4%;
+    top:-6%;
+    width:350px;
+    height:350px;
+  }
+}
+@media only screen and (max-width:865px){
+  .astronaut{
+    bottom:380px;
+    right:5%;
+    width:0;
+    height:0;
+    background-image:none;
+    transform:none;
+  }
+  .astronaut:before{
+    transform:none;
+    top:0;
+    right:0;
+  }
+  
+}
+/*mobile*/
+@media only screen and (max-width:700px){
+  .sun{
+    opacity:0;
+  }
+  .saturnish{
+    opacity:0;
+  }
+  .astronaut{
+    display:none;
+  }
+  .moon{
+    top: -35px;
+    left: -85px;
+  }
+  .galaxy{
+    width: 250px;
+  }
+  .hero-option{
+    margin:20px;
+  }
+}
+/* super small mobile */
+@media only screen and (max-width:500px){
+  .galaxy{
+    display:none;
+  }
+}
+@media only screen and (max-height:550px){
+  .sun, .saturnish, .asteroid-belt, .astronaut-link{
+    display:none;
+  }
+}
+
+
+@media only screen and (max-height:700px) and  (max-width:615px){
+  .astronaut{
+    bottom:300px;
+  }
+  .astronaut:before{
+    height:120px;
+  }
+}
+
+/* 4k and up style changes */
+@media only screen and (min-width:1800px){
+  #logo{
+    max-width:15vw;
+    max-height:15vw;
+    height:100%;
+    min-width:500px;
+    min-height:350px;
+  }
+  .galaxy{
+    width: 24%;
+    height: 38%;
+    top: -8%;
+    right: -6%;
+  }
+  .mars{
+    width: 6%;
+    height: 8%;
+  }
+  .saturnish{
+    left: -7%;
+    width: 30%;
+    height: 30%;
+  }
+}

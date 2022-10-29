@@ -1,0 +1,156 @@
+/* overwrite shared */
+.link-row h1,
+.link-row h2{
+  margin:5px 0 0 20px;
+}
+
+#links-logo{
+  margin:10px auto 50px auto;
+  background-image:url("../../img/anim-logo.gif");
+  max-width:450px;
+  height:120px;
+}
+
+.social-icons-container{
+  margin-bottom:60px;
+}
+
+.links-section{
+  margin-bottom:50px;
+}
+.links-section:last-child{
+  margin-bottom:0px;
+}
+.section-header{
+  margin-bottom:10px;;
+}
+
+.link-row{
+  padding:10px;
+  margin-bottom:18px;
+  background-color: #333333;
+}
+
+/* icons and hover states */
+/* icons from spritesheet (default states are determined in general-styles) */
+#instagram-row:hover{
+  color:#f94b89;
+}
+.link-row:hover #instagram-icon,
+.social-icons-container #instagram-icon:hover{
+  background-position:-2px -42px;
+}
+
+#facebook-row:hover{
+  color:#4267b2;
+}
+.link-row:hover #facebook-icon,
+.social-icons-container #facebook-icon:hover{
+  background-position:-198px -42px;
+}
+
+#wdht-row:hover{
+  color:#78dda8;
+}
+.link-row:hover #wdht-icon,
+.social-icons-container #wdht-icon:hover{
+  background-position:-41px -121px;
+}
+
+/* #twitter-row:hover{
+  color:;
+} */
+.link-row:hover #twitter-icon,
+.social-icons-container #twitter-icon:hover{
+  background-position:-41px -200px;
+}
+/* #tiktok-row:hover{
+  color:;
+} */
+.link-row:hover #tiktok-icon,
+.social-icons-container #tiktok-icon:hover{
+  background-position:-2px -200px;
+}
+
+
+
+#giphy-row:hover{
+  color:#b377e5;
+}
+.link-row:hover #giphy-icon,
+.social-icons-container #giphy-icon:hover{
+  background-position:-2px -121px;
+}
+
+#tumblr-row:hover{
+  color:#41688e;
+}
+.link-row:hover #tumblr-icon{
+  background-position:-159px -42px;
+}
+
+#shop-row:hover{
+  color:#ffd34d;
+}
+.link-row:hover #shop-icon{
+  background-position:-80px -42px;
+}
+
+#website-row:hover{
+  color:#388841;
+}
+.link-row:hover #website-icon{
+  background-position:-119px -121px;
+}
+
+#newsletter-row:hover{
+  color:#f3ddbd;
+}
+.link-row:hover #newsletter-icon{
+  background-position:-159px -121px;
+}
+
+#survey-row:hover{
+  color:#6df77c;
+}
+.link-row:hover #survey-icon{
+  background-position:-198px -121px;
+}
+
+#generic-link-row:hover{
+  color:#3f75f6;
+}
+.link-row:hover #generic-link-icon{
+  background-position:-198px -200px;
+}
+
+#blog-row:hover{
+  color:#ff9224;
+}
+.link-row:hover #blog-icon{
+  background-position:-80px -121px;
+}
+
+#terrabyte-row:hover{
+  color:#0a8c61;
+}
+.link-row:hover #terrabyte-icon{
+  background-position:-119px -200px;
+}
+
+#pinekeepers-row:hover{
+  color:#8ab97f;
+}
+.link-row:hover #pinekeepers-icon{
+  background-position:-159px -200px;
+}
+
+
+@media only screen and (max-width:615px){
+  .section-content{
+    padding:30px;
+  }
+  h1{
+    font-size:18px;
+  }
+}

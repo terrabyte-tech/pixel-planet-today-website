@@ -1,0 +1,77 @@
+#support{
+  background-color: #5ccaf2;
+}
+#support .section-content{
+  min-height:100vh;
+}
+
+.help-col{
+  padding:0 20px;
+}
+.help-col .col-img{
+  width:120px;
+  height:120px;
+  margin:0 auto 20px auto;
+}
+.help-col h2{
+  text-align:center;
+}
+
+#follow-col .col-img{
+  background-image:url("../img/how-to-help-section-assets/follow-notification-icon.png");
+}
+#swag-col .col-img{
+  background-image:url("../img/how-to-help-section-assets/green-storefront-icon.png");
+}
+#donate-col .col-img{
+  background-image:url("../img/how-to-help-section-assets/heart-coin.png");
+}
+
+/*tablet*/
+@media only screen and (max-width:865px){
+  .cols-container{
+    flex-wrap:wrap;
+  }
+  .help-col{
+    flex:none;
+    /* width:10 */
+    display:flex;
+    align-content: center;
+    margin-bottom:40px;
+  }
+  .help-col:last-child{
+    margin-bottom:0;
+  }
+  .col-content{
+    margin-left:50px;
+  }
+  .help-col h2{
+    text-align:left;
+  }
+}
+
+/*mobile*/
+@media only screen and (max-width:615px){
+  .help-col{
+    display:block;
+    padding:0;
+  }
+  .col-content{
+    margin-left:0;
+  }
+  .help-col h2{
+    text-align:center;
+  }
+  #what-else-link{
+    display:none;
+  }
+}
+
+
+
+
+
+
+
+
+

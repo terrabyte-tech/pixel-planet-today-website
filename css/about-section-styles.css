@@ -1,0 +1,122 @@
+/* What the heck is the project section */
+#what-the-project{
+  background-image: url("../img/hero-assets/night-sky.png");
+  background-repeat: repeat;
+}
+
+.space-shuttle{
+  position:absolute;
+  
+  /* background-image:url("../img/hero-assets/space-shuttle-super-extended-test.png"); */
+  background-image:url("../img/hero-assets/space-shuttle-super-extended.png");
+  height:800px;
+  width:110vw;
+  min-width:2000px;
+  left: -150px;
+  bottom:-160px;
+  z-index:10;
+  background-position:bottom center;
+  pointer-events: none;
+}
+.repeating-clouds{
+  display:none;
+  position:absolute;
+  left:0;
+  bottom:-140px;
+  z-index:9;
+  width:110vw;
+  height:500px;
+  background-image:url("../img/hero-assets/space-shuttle-super-extended-repeating.png");
+  background-repeat:repeat-x;
+}
+.ufo{
+  position:absolute;
+  top: -55px;
+  transform: rotate(-20deg);
+  right: 16%;
+  width: 300px;
+  height: 300px;
+  background-image: url("../img/hero-assets/ufo.png");
+  pointer-events: none;
+}
+#what-the-project .shooting-star{
+  z-index: 9;
+  right: 0;
+  left: unset;
+  bottom: -100px;
+  top: unset;
+  pointer-events: none;
+}
+.about-the-project-col{
+  margin-bottom:50px;
+}
+.about-the-project-col p{
+  background-color:#222222;
+}
+
+/* large desktop */
+@media only screen and (max-width:1200px){
+  .space-shuttle{
+    left: -400px;
+  }
+}
+
+/*tablet*/
+@media only screen and (max-width:865px){
+  .space-shuttle{
+    left: -500px;
+  }
+}
+
+/*custom mobile*/
+@media only screen and (max-width:750px){
+  #what-the-project .spacer-col{
+    display:none;
+  }
+  .space-shuttle{
+    height:350px;
+    left:-400px;
+  }
+}
+/*mobile*/
+@media only screen and (max-width:615px){
+  .ufo{
+    display:none;
+  }
+  .space-shuttle{
+    /* height:270px; */
+    height:300px;
+    left:-700px;
+  }
+}
+/*extra small custom mobile*/
+@media only screen and (max-width:400px){
+  .space-shuttle{
+    /* height:270px; */
+    height:300px;
+    left:-700px;
+  }
+  #what-the-project .shooting-star{
+    width:200px;
+    height:200px;
+  }
+}
+
+/* 4k+ resolutions */
+
+@media only screen and (min-width:2000px){
+  .space-shuttle{
+    height:800px;
+    width:110vw;
+    min-width:1500px;
+    left: -150px;
+    /* bottom:-180px; */
+  }
+}
+@media only screen and (min-width:2120px){
+  .repeating-clouds{
+    display:block;
+  }
+}
+
+
