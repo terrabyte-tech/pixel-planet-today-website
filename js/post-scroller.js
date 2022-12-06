@@ -4,7 +4,7 @@ window.addEventListener("load", function(){
   var margLeft = 0;
   var margRightOffset = 0;
 
-  //this will be reuilt to create the content from this array as well
+  //this will be rebuilt to create the content from this array as well
   let contentArray = ["test1", "test2", "test3", "test4"];
 
 
