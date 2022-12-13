@@ -1,0 +1,88 @@
+{
+  "linkSections": [
+    {
+      "label": "Highlights", "linkItems": [
+        {
+          "label": "Newsletter",
+          "icon": "newsletter-icon",
+          "href": "https://pixelplanettoday.com/#newsletter",
+          "styleClass": "newsletter"
+        },
+        {
+          "label": "Terrabyte on We Don't Have Time",
+          "icon": "wdht-icon",
+          "href": "https://app.wedonthavetime.org/profile/Terrabyte",
+          "styleClass": "wdht"
+        },
+        {
+          "label": "Pinekeepers",
+          "icon": "pinekeepers-icon",
+          "href": "https://pinekeepers.com",
+          "styleClass": "pinekeepers"
+        },
+        {
+          "label": "Shop",
+          "icon": "shop-icon",
+          "href": "https://shop.pixelplanettoday.com",
+          "styleClass": "shop"
+        }
+      ]
+    },
+    {
+      "label": "The Usual", "linkItems": [
+        {
+          "label": "Website",
+          "icon": "website-icon",
+          "href": "https://pixelplanettoday.com",
+          "styleClass": "website"
+        },
+        {
+          "label": "Blog",
+          "icon": "blog-icon",
+          "href": "https://blog.pixelplanettoday.com",
+          "styleClass": "blog"
+        },
+        {
+          "label": "Terrabyte Website",
+          "icon": "terrabyte-icon",
+          "href": "https://terrabyte.eco",
+          "styleClass": "terrabyte"
+        },
+        {
+          "label": "About Us",
+          "icon": "terrabyte-icon",
+          "href": "https://terrabyte.eco/about-us",
+          "styleClass": "terrabyte"
+        }
+      ]
+    }
+  ],
+
+
+
+
+  "oldLinks": [
+    {
+      "label": "Old Links", "linkItems": [
+        {
+          "label": "Survey",
+          "icon": "survey-icon",
+          "href": "https://pixelplanettoday.com/survey",
+          "styleClass": "survey"
+        },
+        {
+          "label": "Our EJIT 'Zine Page",
+          "icon": "",
+          "href": "https://www.environmentaljustice.tech/zine/together2",
+          "styleClass": ""
+        },
+        {
+          "label": "Bored Panda",
+          "icon": "",
+          "href": "https://www.boredpanda.com/pixel-art-and-environmental-facts-sammy-harper",
+          "styleClass": ""
+        }
+      ]
+    }
+  ]
+}
