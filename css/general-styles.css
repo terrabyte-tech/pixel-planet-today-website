@@ -323,17 +323,12 @@ button.primary:active{
 
 /* icons from spritesheet (hover states are determined in footer-section-styles and links-styles) */
 
-/* obsolete - now included as the default social icon */
-/* #generic-link-icon{
-  background-position:-198px -158px;
-} */
-
 #instagram-icon,
 .instagram-icon{
   background-position:-2px 0px;
 }
 #facebook-icon,
-.instagram-icon{
+.facebook-icon{
   background-position:-198px 0px;
 }
 #wdht-icon,
