@@ -22,3 +22,12 @@ jobs:
         port: 22
         local_path: './*'
         remote_path: ${{ secrets.sftp_remote_path_prod }}
+    - name: Deploy file(s)
+      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      with:
+        server: ${{ secrets.sftp_server }}
+        username: ${{ secrets.sftp_username }}
+        password: ${{ secrets.sftp_password }}
+        port: 22
+        local_path: './*'
+        remote_path: ${{ secrets.sftp_remote_path_prod }}
