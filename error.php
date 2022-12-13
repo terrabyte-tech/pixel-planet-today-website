@@ -140,10 +140,9 @@
     <section class="padded-section">
       <div class="max-width">
         <div class="section-header">
-          <h1><span class="highlight-container">We're not ready yet</span></h1>
+          <h1><span class="highlight-container">That's an Error (<?php print ($error_code); ?>)</span></h1>
         </div>
         <div class="section-content">
-        <h1>That's an Error (<?php print ($error_code); ?>)</h1>
         <p>Looks like we hit a bit of a snag. Check the URL above and try again &mdash; or, head to the <a class="standard-link" href="https://terrabyte.eco">Terrabyte homepage</a> to try to find what you were looking for.</p>
         </div>
       </div>
