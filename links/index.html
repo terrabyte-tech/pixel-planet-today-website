@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Pixel Planet Today: Links</title>
+
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta name="keywords" content="graphic design, pixel art, 8 bit, 16 bit, environment, climate change, climate crisis, endangered animals, health issues, rising sea levels, go green, ecology, conservation, carbon footprint, carbon, enviroaction, enviroart, global warming, save the planet, plastic pollution, sixth extinction, current, issues">
-  <meta name="description" content="Pixel Planet Today is a project aimed at raising appreciation for Mother Nature through daily pixel art paired with facts about our beautiful planet.">
+  <meta name="description" content="Pixel Planet Today is a project aimed at raising an appreciation for Mother Nature by combining pixel art with facts about the planet.">
   
   <meta name="author" content="Terrabyte">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://pixelplanettoday.com/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://pixelplanettoday.com/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://pixelplanettoday.com/favicon-16x16.png">
-  <link rel="manifest" href="https://pixelplanettoday.com/site.webmanifest">
-  <title>Pixel Planet Today: Links</title>
+
+
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
 
-  <link href="https://pixelplanettoday.com/css/general-styles.css" rel="stylesheet">
-  <link href="https://pixelplanettoday.com/css/layout-styles.css" rel="stylesheet">
-  
-  <link href="https://pixelplanettoday.com/links/css/links-styles.css" rel="stylesheet">
-  <link href="https://pixelplanettoday.com/css/footer-section-styles.css" rel="stylesheet">
+  <!-- stylesheets -->
+  <!-- shared styles -->
+  <link href="/css/layout-styles.css" rel="stylesheet">
+  <link href="/css/general-styles.css" rel="stylesheet">
+  <link href="/css/footer-section-styles.css" rel="stylesheet">
+  <!-- page styles -->
+  <link href="./css/links-styles.css" rel="stylesheet">
 
 
   <!-- initial load transition -->
@@ -45,6 +55,15 @@
   </noscript>
   <!---->
 
+  <!-- scripts -->
+  <!-- shared terrabyte scripts -->
+  <script  type="text/javascript" src="https://terrabyte.eco/js/shared-scripts.js"></script>
+
+  <!-- page scripts -->
+  <script type="text/javascript" src="./js/link-builder.js"></script>
+
+  <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+
 </head>
 
 <body class="loading">
@@ -54,13 +73,13 @@
 
     <div class="social-icons-container flex-container all-center">
       <div class="flex-width flex-container all-center">
-        <a id="instagram-icon" class="pixel-social-icon" href="https://www.instagram.com/pixelplanettoday/"></a>
+        <a class="pixel-social-icon instagram-icon" href="https://www.instagram.com/pixelplanettoday/"></a>
       </div>
       <div class="flex-width flex-container all-center">
-        <a id="facebook-icon" class="pixel-social-icon" href="https://www.facebook.com/pixelplanettoday"></a>
+        <a class="pixel-social-icon facebook-icon" href="https://www.facebook.com/pixelplanettoday"></a>
       </div>
       <div class="flex-width flex-container all-center">
-        <a id="wdht-icon" class="pixel-social-icon" href="https://app.wedonthavetime.org/profile/pixelplanettoday"></a>
+        <a class="pixel-social-icon wdht-icon" href="https://app.wedonthavetime.org/profile/pixelplanettoday"></a>
       </div>
 
       <!-- <div class="flex-width flex-container all-center">
@@ -71,100 +90,38 @@
       </div> -->
 
       <div class="flex-width flex-container all-center">
-        <a id="giphy-icon" class="pixel-social-icon" href="https://giphy.com/pixelplanettoday"></a>
+        <a class="pixel-social-icon giphy-icon" href="https://giphy.com/pixelplanettoday"></a>
       </div>
-
     </div>
 
-    <div class="links-section">
-      <div class="section-header">
-        <h1>Highlights</h1>
+    <!-- links section template -->
+    <template id="links-section-template">
+      <div class="links-section" data-links-section>
+        <div class="section-header">
+          <h1 data-header-label></h1>
+        </div>
+
+        <div data-section-content>
+          <!-- links are injected here -->
+        </div>
       </div>
+    </template>
 
-      <a id="generic-link-row" class="link-row flex-container align-center" href="https://www.environmentaljustice.tech/zine/together2" target="_blank">
+    <!-- link row template -->
+    <template id="link-template">
+      <a data-link-row class="link-row flex-container align-center" href="" target="_blank">
         <div class="set-width">
-          <div id="generic-link-icon" class="pixel-social-icon"></div>
+          <div data-link-icon class="pixel-social-icon"></div>
         </div>
         <div class="flex-width">
-          <h1>Our EJIT 'zine Page</h1>
+          <h1 data-link-label></h1>
         </div>
       </a>
-      <a id="pinekeepers-row" class="link-row flex-container align-center" href="https://www.pinekeepers.com" target="_blank">
-        <div class="set-width">
-          <div id="pinekeepers-icon" class="pixel-social-icon"></div>
-        </div>
-        <div class="flex-width">
-          <h1>Pinekeepers</h1>
-        </div>
-      </a>
-      <a id="shop-row" class="link-row flex-container align-center" href="https://shop.pixelplanettoday.com" target="_blank">
-        <div class="set-width">
-          <div id="shop-icon" class="pixel-social-icon"></div>
-        </div>
-        <div class="flex-width">
-          <h1>Shop</h1>
-        </div>
-      </a>
-      <a id="blog-row" class="link-row flex-container align-center" href="https://blog.pixelplanettoday.com" target="_blank">
-        <div class="set-width">
-          <div id="blog-icon" class="pixel-social-icon"></div>
-        </div>
-        <div class="flex-width">
-          <h1>Blog</h1>
-        </div>
-      </a>
-
-      <!-- will remove soon -->
-      
-      <!-- <a id="survey-row" class="link-row flex-container align-center" href="https://pixelplanettoday.com/survey" target="_blank">
-      <div class="set-width">
-        <div id="survey-icon" class="pixel-social-icon"></div>
-      </div>
-      <div class="flex-width">
-        <h1>NFT Survey</h1>
-      </div>
-    </a> -->
-    </div>
+    </template>
 
 
-    <div class="links-section">
-      <div class="section-header">
-        <h1>The Usual</h1>
-      </div>
-      <a id="terrabyte-row" class="link-row flex-container align-center" href="https://www.terrabyte.eco" target="_blank">
-        <div class="set-width">
-          <div id="terrabyte-icon" class="pixel-social-icon"></div>
-        </div>
-        <div class="flex-width">
-          <h1>Terrabyte</h1>
-        </div>
-      </a>
-      <a id="website-row" class="link-row flex-container align-center" href="https://www.pixelplanettoday.com" target="_blank">
-        <div class="set-width">
-          <div id="website-icon" class="pixel-social-icon"></div>
-        </div>
-        <div class="flex-width">
-          <h1>Website</h1>
-        </div>
-      </a>
-      <a id="newsletter-row" class="link-row flex-container align-center" href="https://www.pixelplanettoday.com/#newsletter" target="_blank">
-        <div class="set-width">
-          <div id="newsletter-icon" class="pixel-social-icon"></div>
-        </div>
-        <div class="flex-width">
-          <h1>Newsletter</h1>
-        </div>
-      </a>
-
-      <a id="generic-link-row" class="link-row flex-container align-center" href="https://www.boredpanda.com/pixel-art-and-environmental-facts-sammy-harper" target="_blank">
-        <div class="set-width">
-          <div id="generic-link-icon" class="pixel-social-icon"></div>
-        </div>
-        <div class="flex-width">
-          <h1>Bored Panda</h1>
-        </div>
-      </a>
-      
+    <div data-links-section-container>
+      <!-- link sections injected here -->
     </div>
 
   </section>
@@ -189,13 +146,13 @@
         </div>
   
         <div id="footer-social-container" class="set-width flex-container justify-right">
-          <a id="instagram-icon" class="pixel-social-icon" href="https://www.instagram.com/pixelplanettoday/" target="_blank"></a>
-          <a id="facebook-icon" class="pixel-social-icon" href="https://www.facebook.com/pixelplanettoday" target="_blank"></a>
-          <a id="wdht-icon" class="pixel-social-icon" href="https://app.wedonthavetime.org/profile/pixelplanettoday" target="_blank"></a>
-          <a id="giphy-icon" class="pixel-social-icon" href="https://giphy.com/pixelplanettoday" target="_blank"></a>
+          <a class="pixel-social-icon instagram-icon" href="https://www.instagram.com/pixelplanettoday/" target="_blank"></a>
+          <a class="pixel-social-icon facebook-icon" href="https://www.facebook.com/pixelplanettoday" target="_blank"></a>
+          <a class="pixel-social-icon wdht-icon" href="https://app.wedonthavetime.org/profile/pixelplanettoday" target="_blank"></a>
+          <a class="pixel-social-icon giphy-icon" href="https://giphy.com/pixelplanettoday" target="_blank"></a>
           <!-- <a id="tumblr-icon" class="pixel-social-icon"href="https://pixelplanettoday.tumblr.com/" target="_blank"></a> -->
-          <a id="blog-icon" class="pixel-social-icon"href="https://blog.pixelplanettoday.com/" target="_blank"></a>
-          <a id="shop-icon" class="pixel-social-icon" href="https://www.shop.pixelplanettoday.com" target="_blank"></a>
+          <a class="pixel-social-icon blog-icon" href="https://blog.pixelplanettoday.com/" target="_blank"></a>
+          <a class="pixel-social-icon shop-icon" href="https://www.shop.pixelplanettoday.com" target="_blank"></a>
         </div>
       </div>
       <div class="company-links-container">

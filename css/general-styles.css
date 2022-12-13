@@ -310,6 +310,8 @@ button.primary:active{
 
 .pixel-social-icon{
   background-image:url("../img/icons/social-spritesheet.png");
+  /* same as generic link */
+  background-position:-198px -158px;
   background-size: 600%;
   background-repeat: no-repeat;
   width:40px;
@@ -320,50 +322,62 @@ button.primary:active{
 }
 
 /* icons from spritesheet (hover states are determined in footer-section-styles and links-styles) */
-#instagram-icon{
+
+#instagram-icon,
+.instagram-icon{
   background-position:-2px 0px;
 }
-#facebook-icon{
+#facebook-icon,
+.facebook-icon{
   background-position:-198px 0px;
 }
-#wdht-icon{
+#wdht-icon,
+.wdht-icon{
   background-position:-41px -79px;
 }
 
-#twitter-icon{
+#twitter-icon,
+.twitter-icon{
   background-position:-41px -158px;
 }
-#tiktok-icon{
+#tiktok-icon,
+.tiktok-icon{
   background-position:-2px -158px;
 }
 
-#giphy-icon{
+#giphy-icon,
+.giphy-icon{
   background-position:-2px -79px;
 }
-#tumblr-icon{
+#tumblr-icon,
+.tumblr-icon{
   background-position:-159px 0px;
 }
-#shop-icon{
+#shop-icon,
+.shop-icon{
   background-position:-80px 0px;
 }
-#website-icon{
+#website-icon,
+.website-icon{
   background-position:-119px -79px;
 }
-#newsletter-icon{
+#newsletter-icon,
+.newsletter-icon{
   background-position:-159px -79px;
 }
-#survey-icon{
+#survey-icon,
+.survey-icon{
   background-position:-198px -79px;
 }
-#generic-link-icon{
-  background-position:-198px -158px;
-}
-#blog-icon{
+#blog-icon,
+.blog-icon{
   background-position:-80px -79px;
 }
-#terrabyte-icon{
+#terrabyte-icon,
+.terrabyte-icon{
   background-position:-119px -158px;
 }
-#pinekeepers-icon{
+#pinekeepers-icon,
+.pinekeepers-icon{
   background-position:-159px -158px;
 }

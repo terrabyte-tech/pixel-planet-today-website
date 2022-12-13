@@ -54,32 +54,41 @@ a.pixel-icon-link,
 
 /*  */
 /* icons from spritesheet (default states are determined in general-styles) */
-#instagram-icon:hover{
+#instagram-icon:hover,
+.instagram-icon:hover{
   background-position:-2px -42px;
 }
-#facebook-icon:hover{
+#facebook-icon:hover,
+.facebook-icon:hover{
   background-position:-198px -42px;
 }
-#wdht-icon:hover{
+#wdht-icon:hover,
+.wdht-icon:hover{
   background-position:-41px -121px;
 }
-#twitter-icon:hover{
+#twitter-icon:hover,
+.twitter-icon:hover{
   background-position:-41px -200px;
 }
-#tiktok-icon:hover{
+#tiktok-icon:hover,
+.tiktok-icon:hover{
   background-position:-2px -200px;
 }
 
-#giphy-icon:hover{
+#giphy-icon:hover,
+.giphy-icon:hover{
   background-position:-2px -121px;
 }
-#tumblr-icon:hover{
+#tumblr-icon:hover,
+.tumblr-icon:hover{
   background-position:-159px -42px;
 }
-#shop-icon:hover{
+#shop-icon:hover,
+.shop-icon:hover{
   background-position:-80px -42px;
 }
-#blog-icon:hover{
+#blog-icon:hover,
+.blog-icon:hover{
   background-position:-80px -121px;
 }
 
