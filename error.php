@@ -145,7 +145,7 @@
         <div class="section-content">
           <p>Looks like we found a bad byte and some dead pixels. Check the URL above and try again.</p>
 
-          <p>You can also head to the homepage at (<a href="<?php print ($server_url); ?>"><?php print ($server_url); ?></a>), or go directly to the <a class="standard-link" href="https://terrabyte.eco">Terrabyte homepage</a> to try to find what you were looking for there.</p>
+          <p>You can also head to the homepage (<a class="standard-link" href="<?php print ($server_url); ?>"><?php print ($server_url); ?></a>) or go directly to the <a class="standard-link" href="https://terrabyte.eco">Terrabyte homepage</a> to try to find what you were looking for there.</p>
         </div>
       </div>
     </section>
