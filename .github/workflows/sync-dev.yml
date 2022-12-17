@@ -1,3 +1,5 @@
+# on main commit/merge, make pull request to sync with dev
+
 name: Sync Dev with Main
 on:
   push:

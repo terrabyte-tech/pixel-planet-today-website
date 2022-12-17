@@ -35,7 +35,8 @@ body{
   transition:opacity 1s;
   width:100vw;
   overflow-x:hidden;
-  cursor: url("../img/ui/arrow-pointer-cursor.png"), default;
+  /* cursor: url("../img/ui/arrow-pointer-cursor.png"), default; */
+  cursor: url("../img/ui/mini-default-cursor.png"), default;
 }
 .scroll-manager{
   width:100vw;
@@ -150,7 +151,8 @@ img{
 a{
   color:currentColor;
   text-decoration:none;
-  cursor: url("../img/ui/finger-pointer-cursor.png"), pointer;
+  /* cursor: url("../img/ui/finger-pointer-cursor.png"), pointer; */
+  cursor: url("../img/ui/mini-pointer-cursor.png"), pointer;
   user-select: none;
 }
 a.standard-link,
@@ -220,6 +222,7 @@ input[type="number"]{
   border:none;
   border-bottom:3px solid currentColor;
   text-overflow:ellipsis;
+  cursor: url("../img/ui/mini-text-cursor.png"), text;
   /* font-size:15px; */
 }
 input:focus{
@@ -248,7 +251,8 @@ input[type="submit"]{
   border:3px solid currentColor;
   padding:10px;
   font-size:15px;
-  cursor: url("../img/ui/finger-pointer-cursor.png"), pointer;
+  /* cursor: url("../img/ui/finger-pointer-cursor.png"), pointer; */
+  cursor: url("../img/ui/mini-pointer-cursor.png"), pointer;
   user-select: none;
 }
 
