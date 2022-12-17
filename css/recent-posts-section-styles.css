@@ -54,7 +54,8 @@
   width:50px;
   height:50px;
   /* cursor:pointer; */
-  cursor: url("../img/ui/finger-pointer-cursor.png"), pointer;
+  /* cursor: url("../img/ui/finger-pointer-cursor.png"), pointer; */
+  cursor: url("../img/ui/mini-pointer-cursor.png"), pointer;
 }
 .hide.fact-scroll-arrow{
   pointer-events:none;

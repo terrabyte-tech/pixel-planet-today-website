@@ -172,7 +172,8 @@ hr{
   border:3px solid currentColor;
   position:relative;
   /* cursor:pointer; */
-  cursor: url("../../img/ui/finger-pointer-cursor.png"), pointer;
+  /* cursor: url("../../img/ui/finger-pointer-cursor.png"), pointer; */
+  cursor: url("../img/ui/mini-pointer-cursor.png"), pointer;
   margin-left:40px;
   margin-right:70px;
 }
