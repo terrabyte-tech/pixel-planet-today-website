@@ -15,10 +15,10 @@
           "styleClass": "wdht"
         },
         {
-          "label": "Pinekeepers",
-          "icon": "pinekeepers-icon",
-          "href": "https://pinekeepers.com",
-          "styleClass": "pinekeepers"
+          "label": "Our Resolutions Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2022/12/29/terrabytewrapped/",
+          "styleClass": "blog"
         },
         {
           "label": "Shop",
@@ -41,6 +41,12 @@
           "icon": "blog-icon",
           "href": "https://blog.pixelplanettoday.com",
           "styleClass": "blog"
+        },
+        {
+          "label": "Pinekeepers",
+          "icon": "pinekeepers-icon",
+          "href": "https://pinekeepers.com",
+          "styleClass": "pinekeepers"
         },
         {
           "label": "Terrabyte Website",
