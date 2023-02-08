@@ -3,22 +3,22 @@
     {
       "label": "Highlights", "linkItems": [
         {
-          "label": "Newsletter",
-          "icon": "newsletter-icon",
-          "href": "https://pixelplanettoday.com/#newsletter",
-          "styleClass": "newsletter"
-        },
-        {
-          "label": "Terrabyte on We Don't Have Time",
-          "icon": "wdht-icon",
-          "href": "https://app.wedonthavetime.org/profile/Terrabyte",
-          "styleClass": "wdht"
+          "label": "Hello Omaha: The Benefits of a Streetcar Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2023/02/08/hello-omaha-the-benefits-of-a-streetcar/",
+          "styleClass": "blog"
         },
         {
           "label": "Our Resolutions Blog Post",
           "icon": "blog-icon",
           "href": "https://www.blog.pixelplanettoday.com/2022/12/29/terrabytewrapped/",
           "styleClass": "blog"
+        },
+        {
+          "label": "Newsletter",
+          "icon": "newsletter-icon",
+          "href": "https://pixelplanettoday.com/#newsletter",
+          "styleClass": "newsletter"
         },
         {
           "label": "Shop",
@@ -47,6 +47,12 @@
           "icon": "pinekeepers-icon",
           "href": "https://pinekeepers.com",
           "styleClass": "pinekeepers"
+        },
+        {
+          "label": "Terrabyte on We Don't Have Time",
+          "icon": "wdht-icon",
+          "href": "https://app.wedonthavetime.org/profile/Terrabyte",
+          "styleClass": "wdht"
         },
         {
           "label": "Terrabyte Website",
