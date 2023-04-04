@@ -3,22 +3,16 @@
     {
       "label": "Highlights", "linkItems": [
         {
-          "label": "Hello Omaha: The Benefits of a Streetcar Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/02/08/hello-omaha-the-benefits-of-a-streetcar/",
-          "styleClass": "blog"
-        },
-        {
-          "label": "Our Resolutions Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2022/12/29/terrabytewrapped/",
-          "styleClass": "blog"
-        },
-        {
           "label": "Newsletter",
           "icon": "newsletter-icon",
           "href": "https://pixelplanettoday.com/#newsletter",
           "styleClass": "newsletter"
+        },
+        {
+          "label": "Hello Omaha: The Benefits of a Streetcar Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2023/02/08/hello-omaha-the-benefits-of-a-streetcar/",
+          "styleClass": "blog"
         },
         {
           "label": "Shop",
@@ -43,10 +37,10 @@
           "styleClass": "blog"
         },
         {
-          "label": "Pinekeepers",
-          "icon": "pinekeepers-icon",
-          "href": "https://pinekeepers.com",
-          "styleClass": "pinekeepers"
+          "label": "Terrabyte Website",
+          "icon": "terrabyte-icon",
+          "href": "https://terrabyte.eco",
+          "styleClass": "terrabyte"
         },
         {
           "label": "Terrabyte on We Don't Have Time",
@@ -55,10 +49,10 @@
           "styleClass": "wdht"
         },
         {
-          "label": "Terrabyte Website",
-          "icon": "terrabyte-icon",
-          "href": "https://terrabyte.eco",
-          "styleClass": "terrabyte"
+          "label": "Pinekeepers",
+          "icon": "pinekeepers-icon",
+          "href": "https://pinekeepers.com",
+          "styleClass": "pinekeepers"
         },
         {
           "label": "About Us",
