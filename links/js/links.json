@@ -3,16 +3,16 @@
     {
       "label": "Highlights", "linkItems": [
         {
+          "label": "The Loopholes of Recycling Promises Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2023/06/02/the-loopholes-of-recyclable-reusable-or-compostable-packaging-promises/",
+          "styleClass": "blog"
+        },
+        {
           "label": "Newsletter",
           "icon": "newsletter-icon",
           "href": "https://pixelplanettoday.com/#newsletter",
           "styleClass": "newsletter"
-        },
-        {
-          "label": "Hello Omaha: The Benefits of a Streetcar Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/02/08/hello-omaha-the-benefits-of-a-streetcar/",
-          "styleClass": "blog"
         },
         {
           "label": "Shop",
