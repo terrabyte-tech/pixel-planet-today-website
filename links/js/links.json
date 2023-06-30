@@ -3,9 +3,9 @@
     {
       "label": "Highlights", "linkItems": [
         {
-          "label": "The Loopholes of Recycling Promises Blog Post",
+          "label": "Plastic Free July Blog Post",
           "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/06/02/the-loopholes-of-recyclable-reusable-or-compostable-packaging-promises/",
+          "href": "https://www.blog.pixelplanettoday.com/2023/06/30/plastic-free-july-what-it-is-what-it-isnt/",
           "styleClass": "blog"
         },
         {
@@ -19,7 +19,14 @@
           "icon": "shop-icon",
           "href": "https://shop.pixelplanettoday.com",
           "styleClass": "shop"
+        },
+        {
+          "label": "The Loopholes of Recycling Promises Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2023/06/02/the-loopholes-of-recyclable-reusable-or-compostable-packaging-promises/",
+          "styleClass": "blog"
         }
+        
       ]
     },
     {
