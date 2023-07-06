@@ -3,10 +3,10 @@
     {
       "label": "Highlights", "linkItems": [
         {
-          "label": "Plastic Free July Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/06/30/plastic-free-july-what-it-is-what-it-isnt/",
-          "styleClass": "blog"
+          "label": "Pixel Planet Today X Plastic Free July Digital Stickers",
+          "icon": "shop-icon",
+          "href": "https://shop.pixelplanettoday.com/plastic-free-july",
+          "styleClass": "shop"
         },
         {
           "label": "Newsletter",
@@ -15,18 +15,11 @@
           "styleClass": "newsletter"
         },
         {
-          "label": "Shop",
-          "icon": "shop-icon",
-          "href": "https://shop.pixelplanettoday.com",
-          "styleClass": "shop"
-        },
-        {
-          "label": "The Loopholes of Recycling Promises Blog Post",
+          "label": "Plastic Free July Blog Post",
           "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/06/02/the-loopholes-of-recyclable-reusable-or-compostable-packaging-promises/",
+          "href": "https://www.blog.pixelplanettoday.com/2023/06/30/plastic-free-july-what-it-is-what-it-isnt/",
           "styleClass": "blog"
         }
-        
       ]
     },
     {
@@ -36,6 +29,12 @@
           "icon": "website-icon",
           "href": "https://pixelplanettoday.com",
           "styleClass": "website"
+        },
+        {
+          "label": "Shop",
+          "icon": "shop-icon",
+          "href": "https://shop.pixelplanettoday.com",
+          "styleClass": "shop"
         },
         {
           "label": "Blog",
@@ -48,12 +47,6 @@
           "icon": "terrabyte-icon",
           "href": "https://terrabyte.eco",
           "styleClass": "terrabyte"
-        },
-        {
-          "label": "Terrabyte on We Don't Have Time",
-          "icon": "wdht-icon",
-          "href": "https://app.wedonthavetime.org/profile/Terrabyte",
-          "styleClass": "wdht"
         },
         {
           "label": "Pinekeepers",
@@ -77,6 +70,12 @@
   "oldLinks": [
     {
       "label": "Old Links", "linkItems": [
+        {
+          "label": "Terrabyte on We Don't Have Time",
+          "icon": "wdht-icon",
+          "href": "https://app.wedonthavetime.org/profile/Terrabyte",
+          "styleClass": "wdht"
+        },
         {
           "label": "Survey",
           "icon": "survey-icon",
