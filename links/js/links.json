@@ -3,6 +3,12 @@
     {
       "label": "Highlights", "linkItems": [
         {
+          "label": "Pixel's Fourth Birthday Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com",
+          "styleClass": "blog"
+        },
+        {
           "label": "Pixel Planet Today X Plastic Free July Digital Stickers",
           "icon": "shop-icon",
           "href": "https://shop.pixelplanettoday.com/plastic-free-july",
