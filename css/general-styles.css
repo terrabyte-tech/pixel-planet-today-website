@@ -36,7 +36,7 @@ body{
   width:100vw;
   overflow-x:hidden;
   /* cursor: url("../img/ui/arrow-pointer-cursor.png"), default; */
-  cursor: url("https://pixelplanettoday.com/img/ui/mini-default-cursor.png"), default;
+  cursor: url("../img/ui/mini-default-cursor.png"), default;
 }
 .scroll-manager{
   width:100vw;
