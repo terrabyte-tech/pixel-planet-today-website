@@ -348,6 +348,10 @@ button.primary:active{
 .tiktok-icon{
   background-position:-2px -158px;
 }
+#etsy-icon,
+.etsy-icon{
+  background-position:-2px -237px;
+}
 
 #giphy-icon,
 .giphy-icon{

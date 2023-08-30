@@ -46,6 +46,7 @@
   background-position:-198px -200px;
 }
 
+/* instagram */
 #instagram-row:hover,
 .link-row.instagram:hover{
   color:#f94b89;
@@ -56,6 +57,7 @@
   background-position:-2px -42px;
 }
 
+/* facebook */
 #facebook-row:hover,
 .link-row.facebook:hover{
   color:#4267b2;
@@ -66,6 +68,7 @@
   background-position:-198px -42px;
 }
 
+/* wdht */
 #wdht-row:hover,
 .link-row.wdht:hover{
   color:#78dda8;
@@ -76,25 +79,54 @@
   background-position:-41px -121px;
 }
 
-/* #twitter-row:hover{
-  color:;
-} */
+/* twitter */
+#twitter-row:hover,
+.link-row.twitter:hover{
+  /* color:#ffffff */
+}
 .link-row:hover #twitter-icon,
 .link-row:hover .twitter-icon,
 .social-icons-container #twitter-icon:hover{
   background-position:-41px -200px;
 }
-/* #tiktok-row:hover{
-  color:;
-} */
+
+/* tiktok */
+#tiktok-row:hover,
+.link-row.tiktok:hover{
+  /* color:#ffffff */
+}
 .link-row:hover #tiktok-icon,
 .link-row:hover .tiktok-icon,
 .social-icons-container #tiktok-icon:hover{
   background-position:-2px -200px;
 }
 
+/* etsy */
+#etsy-row:hover,
+.link-row.etsy:hover{
+  color:#f1641e
+}
+.link-row:hover #etsy-icon,
+.link-row:hover .etsy-icon,
+.social-icons-container #etsy-icon:hover{
+  background-position:-2px -279px;
+}
 
+/* discord */
+#discord-row:hover,
+.link-row.discord:hover{
+  color:#4e62ee;
+}
+/*  */
 
+/* itch.io */
+#itch-row:hover,
+.link-row.itch:hover{
+  color:#fa5c5c;
+}
+/*  */
+
+/* giphy */
 #giphy-row:hover,
 .link-row.giphy:hover{
   color:#b377e5;
@@ -105,6 +137,7 @@
   background-position:-2px -121px;
 }
 
+/* tumblr */
 #tumblr-row:hover,
 .link-row.tumblr:hover{
   color:#41688e;
@@ -114,6 +147,7 @@
   background-position:-159px -42px;
 }
 
+/* shop */
 #shop-row:hover,
 .link-row.shop:hover{
   color:#ffd34d;
@@ -123,6 +157,7 @@
   background-position:-80px -42px;
 }
 
+/* website */
 #website-row:hover,
 .link-row.website:hover{
   color:#388841;
@@ -132,6 +167,7 @@
   background-position:-119px -121px;
 }
 
+/* newsletter */
 #newsletter-row:hover,
 .link-row.newsletter:hover{
   color:#f3ddbd;
@@ -141,6 +177,7 @@
   background-position:-159px -121px;
 }
 
+/* survey */
 #survey-row:hover,
 .link-row.survey:hover{
   color:#6df77c;
@@ -150,6 +187,7 @@
   background-position:-198px -121px;
 }
 
+/* blog */
 #blog-row:hover,
 .link-row.blog:hover{
   color:#ff9224;
@@ -159,6 +197,7 @@
   background-position:-80px -121px;
 }
 
+/* terrabyte etc. */
 #terrabyte-row:hover,
 .link-row.terrabyte:hover{
   color:#0a8c61;
@@ -168,6 +207,7 @@
   background-position:-119px -200px;
 }
 
+/* pinekeepers etc. */
 #pinekeepers-row:hover,
 .link-row.pinekeepers:hover{
   color:#8ab97f;

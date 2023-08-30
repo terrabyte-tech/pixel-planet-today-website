@@ -74,6 +74,10 @@ a.pixel-icon-link,
 .tiktok-icon:hover{
   background-position:-2px -200px;
 }
+#etsy-icon:hover,
+.etsy-icon:hover{
+  background-position:-2px -279px;
+}
 
 #giphy-icon:hover,
 .giphy-icon:hover{
