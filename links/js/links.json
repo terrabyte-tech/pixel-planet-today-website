@@ -35,6 +35,12 @@
           "icon": "blog-icon",
           "href": "https://www.blog.pixelplanettoday.com/2023/06/30/plastic-free-july-what-it-is-what-it-isnt/",
           "styleClass": "blog"
+        },
+        {
+          "label": "Terrabyte on Etsy",
+          "icon": "etsy-icon",
+          "href": "https://www.etsy.com/shop/TerrabyteLLC",
+          "styleClass": "etsy"
         }
       ]
     },
