@@ -3,22 +3,22 @@
     {
       "label": "Highlights", "linkItems": [
         {
-          "label": "My Plastic Free July Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/08/11/my-plastic-free-july-2023/",
-          "styleClass": "blog"
+          "label": "Newsletter",
+          "icon": "newsletter-icon",
+          "href": "https://pixelplanettoday.com/#newsletter",
+          "styleClass": "newsletter"
+        },
+        {
+          "label": "We won a Sustainability in Business Award!",
+          "icon": "",
+          "href": "https://www.instagram.com/p/Cx1AblypZ60/",
+          "styleClass": ""
         },
         {
           "label": "Book Lovers Bookmark Set",
           "icon": "shop-icon",
           "href": "https://pixelplanettoday.square.site/product/book-lovers-bookmark-set-ready-to-print-/18?cs=true&cst=custom",
-          "styleClass": "blog"
-        },
-        {
-          "label": "Pixel's Fourth Birthday Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/07/11/four-years-but-this-year/",
-          "styleClass": "blog"
+          "styleClass": "shop"
         }
       ]
     },
@@ -31,9 +31,9 @@
           "styleClass": "shop"
         },
         {
-          "label": "Plastic Free July Blog Post",
+          "label": "Pixel's Fourth Birthday Blog Post",
           "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/06/30/plastic-free-july-what-it-is-what-it-isnt/",
+          "href": "https://www.blog.pixelplanettoday.com/2023/07/11/four-years-but-this-year/",
           "styleClass": "blog"
         },
         {
@@ -57,12 +57,6 @@
           "icon": "shop-icon",
           "href": "https://shop.pixelplanettoday.com",
           "styleClass": "shop"
-        },
-        {
-          "label": "Newsletter",
-          "icon": "newsletter-icon",
-          "href": "https://pixelplanettoday.com/#newsletter",
-          "styleClass": "newsletter"
         },
         {
           "label": "Blog",
