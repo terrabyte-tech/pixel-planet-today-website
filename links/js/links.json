@@ -3,11 +3,27 @@
     {
       "label": "Highlights", "linkItems": [
         {
+          "label": "Shop",
+          "icon": "shop-icon",
+          "href": "https://shop.pixelplanettoday.com",
+          "styleClass": "shop"
+        },
+        {
+          "label": "Terrabyte on Etsy",
+          "icon": "etsy-icon",
+          "href": "https://www.etsy.com/shop/TerrabyteLLC",
+          "styleClass": "etsy"
+        },
+        {
           "label": "Newsletter",
           "icon": "newsletter-icon",
           "href": "https://pixelplanettoday.com/#newsletter",
           "styleClass": "newsletter"
-        },
+        }
+      ]
+    },
+    {
+      "label": "More Things", "linkItems": [
         {
           "label": "We won a Sustainability in Business Award!",
           "icon": "",
@@ -23,40 +39,12 @@
       ]
     },
     {
-      "label": "More Things", "linkItems": [
-        {
-          "label": "Pixel Planet Today X Plastic Free July Digital Stickers",
-          "icon": "shop-icon",
-          "href": "https://shop.pixelplanettoday.com/plastic-free-july",
-          "styleClass": "shop"
-        },
-        {
-          "label": "Pixel's Fourth Birthday Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/07/11/four-years-but-this-year/",
-          "styleClass": "blog"
-        },
-        {
-          "label": "Terrabyte on Etsy",
-          "icon": "etsy-icon",
-          "href": "https://www.etsy.com/shop/TerrabyteLLC",
-          "styleClass": "etsy"
-        }
-      ]
-    },
-    {
       "label": "The Usual", "linkItems": [
         {
           "label": "Website",
           "icon": "website-icon",
           "href": "https://pixelplanettoday.com",
           "styleClass": "website"
-        },
-        {
-          "label": "Shop",
-          "icon": "shop-icon",
-          "href": "https://shop.pixelplanettoday.com",
-          "styleClass": "shop"
         },
         {
           "label": "Blog",
@@ -69,12 +57,6 @@
           "icon": "terrabyte-icon",
           "href": "https://terrabyte.eco",
           "styleClass": "terrabyte"
-        },
-        {
-          "label": "Pinekeepers",
-          "icon": "pinekeepers-icon",
-          "href": "https://pinekeepers.com",
-          "styleClass": "pinekeepers"
         },
         {
           "label": "About Us",
@@ -92,6 +74,24 @@
   "oldLinks": [
     {
       "label": "Old Links", "linkItems": [
+        {
+          "label": "Pinekeepers",
+          "icon": "pinekeepers-icon",
+          "href": "https://pinekeepers.com",
+          "styleClass": "pinekeepers"
+        },
+        {
+          "label": "Pixel Planet Today X Plastic Free July Digital Stickers",
+          "icon": "shop-icon",
+          "href": "https://shop.pixelplanettoday.com/plastic-free-july",
+          "styleClass": "shop"
+        },
+        {
+          "label": "Pixel's Fourth Birthday Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2023/07/11/four-years-but-this-year/",
+          "styleClass": "blog"
+        },
         {
           "label": "Terrabyte on We Don't Have Time",
           "icon": "wdht-icon",
