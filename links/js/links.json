@@ -3,6 +3,12 @@
     {
       "label": "Highlights", "linkItems": [
         {
+          "label": "Sustainability vs. Perfectionism Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2023/11/23/sustainability-vs-perfectionism/",
+          "styleClass": "blog"
+        },
+        {
           "label": "Shop",
           "icon": "shop-icon",
           "href": "https://shop.pixelplanettoday.com",
@@ -13,12 +19,6 @@
           "icon": "etsy-icon",
           "href": "https://www.etsy.com/shop/TerrabyteLLC",
           "styleClass": "etsy"
-        },
-        {
-          "label": "Newsletter",
-          "icon": "newsletter-icon",
-          "href": "https://pixelplanettoday.com/#newsletter",
-          "styleClass": "newsletter"
         }
       ]
     },
@@ -51,6 +51,12 @@
           "icon": "blog-icon",
           "href": "https://blog.pixelplanettoday.com",
           "styleClass": "blog"
+        },
+        {
+          "label": "Newsletter",
+          "icon": "newsletter-icon",
+          "href": "https://pixelplanettoday.com/#newsletter",
+          "styleClass": "newsletter"
         },
         {
           "label": "Terrabyte Website",
