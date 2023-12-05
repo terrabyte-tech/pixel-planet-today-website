@@ -1,12 +1,46 @@
 {
   "linkSections": [
     {
+      "label": "Read more on the latest post", "linkItems": [
+        {
+          "label": "'No Science' behind oil phase down?",
+          "icon": "",
+          "href": "https://www.theguardian.com/environment/2023/dec/03/back-into-caves-cop28-president-dismisses-phase-out-of-fossil-fuels",
+          "styleClass": ""
+        },
+        {
+          "label": "The president of COP28's full quote",
+          "icon": "",
+          "href": "https://app.wedonthavetime.org/posts/6dbc9101-fc99-4541-84dc-5dcc131a8112?utm_source=url-copy&utm_medium=wdht-rn-app-share&utm_campaign=pixelplanettoday",
+          "styleClass": ""
+        },
+        {
+          "label": "Funding for Loss and Damages",
+          "icon": "",
+          "href": "https://www.amnesty.org/en/latest/news/2023/11/global-initial-pledges-at-cop28-to-finance-the-loss-damage-fund-fall-far-short-of-what-is-needed/",
+          "styleClass": ""
+        },
+        {
+          "label": "Pledge to slash cooling-related ",
+          "icon": "",
+          "href": "https://www.reuters.com/sustainability/climate-energy/us-joins-dozens-countries-backing-cop28-pledge-slash-cooling-emissions-2023-12-05/",
+          "styleClass": ""
+        }
+      ]
+    },
+    {
       "label": "Highlights", "linkItems": [
         {
           "label": "Sustainability vs. Perfectionism Blog Post",
           "icon": "blog-icon",
           "href": "https://www.blog.pixelplanettoday.com/2023/11/23/sustainability-vs-perfectionism/",
           "styleClass": "blog"
+        },
+        {
+          "label": "Book Lovers Bookmark Set",
+          "icon": "shop-icon",
+          "href": "https://pixelplanettoday.square.site/product/book-lovers-bookmark-set-ready-to-print-/18?cs=true&cst=custom",
+          "styleClass": "shop"
         },
         {
           "label": "Shop",
@@ -19,22 +53,6 @@
           "icon": "etsy-icon",
           "href": "https://www.etsy.com/shop/TerrabyteLLC",
           "styleClass": "etsy"
-        }
-      ]
-    },
-    {
-      "label": "More Things", "linkItems": [
-        {
-          "label": "We won a Sustainability in Business Award!",
-          "icon": "",
-          "href": "https://www.instagram.com/p/Cx1AblypZ60/",
-          "styleClass": ""
-        },
-        {
-          "label": "Book Lovers Bookmark Set",
-          "icon": "shop-icon",
-          "href": "https://pixelplanettoday.square.site/product/book-lovers-bookmark-set-ready-to-print-/18?cs=true&cst=custom",
-          "styleClass": "shop"
         }
       ]
     },
