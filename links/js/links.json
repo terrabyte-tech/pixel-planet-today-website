@@ -3,27 +3,15 @@
     {
       "label": "Read more on the latest post", "linkItems": [
         {
-          "label": "'No Science' behind oil phase down?",
+          "label": "COP28 ends with call to 'transition away' from fossil fuels",
           "icon": "",
-          "href": "https://www.theguardian.com/environment/2023/dec/03/back-into-caves-cop28-president-dismisses-phase-out-of-fossil-fuels",
+          "href": "https://news.un.org/en/story/2023/12/1144742",
           "styleClass": ""
         },
         {
-          "label": "The president of COP28's full quote",
+          "label": "COP28 Climate Deal Takeaways",
           "icon": "",
-          "href": "https://app.wedonthavetime.org/posts/6dbc9101-fc99-4541-84dc-5dcc131a8112?utm_source=url-copy&utm_medium=wdht-rn-app-share&utm_campaign=pixelplanettoday",
-          "styleClass": ""
-        },
-        {
-          "label": "Funding for Loss and Damages",
-          "icon": "",
-          "href": "https://www.amnesty.org/en/latest/news/2023/11/global-initial-pledges-at-cop28-to-finance-the-loss-damage-fund-fall-far-short-of-what-is-needed/",
-          "styleClass": ""
-        },
-        {
-          "label": "Pledge to slash cooling-related ",
-          "icon": "",
-          "href": "https://www.reuters.com/sustainability/climate-energy/us-joins-dozens-countries-backing-cop28-pledge-slash-cooling-emissions-2023-12-05/",
+          "href": "https://www.cnn.com/2023/12/13/climate/cop28-takeaways-climate-deal/index.html",
           "styleClass": ""
         }
       ]
@@ -138,6 +126,36 @@
           "label": "Bored Panda",
           "icon": "",
           "href": "https://www.boredpanda.com/pixel-art-and-environmental-facts-sammy-harper",
+          "styleClass": ""
+        }
+      ]
+    }
+  ],
+  "oldPostSources": [
+    {
+      "label": "Old Post Sources", "linkItems": [
+        {
+          "label": "'No Science' behind oil phase down?",
+          "icon": "",
+          "href": "https://www.theguardian.com/environment/2023/dec/03/back-into-caves-cop28-president-dismisses-phase-out-of-fossil-fuels",
+          "styleClass": ""
+        },
+        {
+          "label": "The president of COP28's full quote",
+          "icon": "",
+          "href": "https://app.wedonthavetime.org/posts/6dbc9101-fc99-4541-84dc-5dcc131a8112?utm_source=url-copy&utm_medium=wdht-rn-app-share&utm_campaign=pixelplanettoday",
+          "styleClass": ""
+        },
+        {
+          "label": "Funding for Loss and Damages",
+          "icon": "",
+          "href": "https://www.amnesty.org/en/latest/news/2023/11/global-initial-pledges-at-cop28-to-finance-the-loss-damage-fund-fall-far-short-of-what-is-needed/",
+          "styleClass": ""
+        },
+        {
+          "label": "Pledge to slash cooling-related ",
+          "icon": "",
+          "href": "https://www.reuters.com/sustainability/climate-energy/us-joins-dozens-countries-backing-cop28-pledge-slash-cooling-emissions-2023-12-05/",
           "styleClass": ""
         }
       ]
