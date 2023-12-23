@@ -3,26 +3,20 @@
     {
       "label": "Read more on the latest post", "linkItems": [
         {
-          "label": "COP28 ends with call to 'transition away' from fossil fuels",
-          "icon": "",
-          "href": "https://news.un.org/en/story/2023/12/1144742",
-          "styleClass": ""
-        },
-        {
-          "label": "COP28 Climate Deal Takeaways",
-          "icon": "",
-          "href": "https://www.cnn.com/2023/12/13/climate/cop28-takeaways-climate-deal/index.html",
-          "styleClass": ""
+          "label": "2023 Wrapped Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2023/12/22/2023-wrapped/",
+          "styleClass": "blog"
         }
       ]
     },
     {
       "label": "Highlights", "linkItems": [
         {
-          "label": "Sustainability vs. Perfectionism Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/11/23/sustainability-vs-perfectionism/",
-          "styleClass": "blog"
+          "label": "Newsletter",
+          "icon": "newsletter-icon",
+          "href": "https://pixelplanettoday.com/#newsletter",
+          "styleClass": "newsletter"
         },
         {
           "label": "Book Lovers Bookmark Set",
@@ -59,12 +53,6 @@
           "styleClass": "blog"
         },
         {
-          "label": "Newsletter",
-          "icon": "newsletter-icon",
-          "href": "https://pixelplanettoday.com/#newsletter",
-          "styleClass": "newsletter"
-        },
-        {
           "label": "Terrabyte Website",
           "icon": "terrabyte-icon",
           "href": "https://terrabyte.eco",
@@ -99,12 +87,6 @@
           "styleClass": "shop"
         },
         {
-          "label": "Pixel's Fourth Birthday Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/07/11/four-years-but-this-year/",
-          "styleClass": "blog"
-        },
-        {
           "label": "Terrabyte on We Don't Have Time",
           "icon": "wdht-icon",
           "href": "https://app.wedonthavetime.org/profile/Terrabyte",
@@ -134,6 +116,18 @@
   "oldPostSources": [
     {
       "label": "Old Post Sources", "linkItems": [
+        {
+          "label": "COP28 ends with call to 'transition away' from fossil fuels",
+          "icon": "",
+          "href": "https://news.un.org/en/story/2023/12/1144742",
+          "styleClass": ""
+        },
+        {
+          "label": "COP28 Climate Deal Takeaways",
+          "icon": "",
+          "href": "https://www.cnn.com/2023/12/13/climate/cop28-takeaways-climate-deal/index.html",
+          "styleClass": ""
+        },
         {
           "label": "'No Science' behind oil phase down?",
           "icon": "",
