@@ -120,14 +120,24 @@ section{
 /*********************/
 /*shared native element styles*/
 /* headers*/
-.nav-container{
+header{
   position:fixed;
   z-index:99;
-  top:34px;
+  top:0;
+  width:100%;
+  /* background-color:#222222; */
+  transition:.3s;
+}
+.header-content{
   width:100%;
   max-width:1200px;
   margin:0 auto;
-  padding:0 40px;
+  padding:30px 40px;
+}
+.header-logo{
+  height:35px;
+  background-image:url('../img/pixel-planet-today-white-lettering.png');
+  width:150px;
 }
 nav{
   background-color:var(--dark);
@@ -166,6 +176,18 @@ nav a.selected{
 nav a.selected:after{
   opacity:0;
 }
+
+/* after-scrolling header styles */
+header.scrolled{
+  background-color:var(--dark);
+}
+header.scrolled .header-content{
+  padding:12px 40px;
+}
+header.scrolled .header-logo{
+  height:28px;
+}
+
 
 /*section large headers*/
 h1{
