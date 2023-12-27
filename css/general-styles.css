@@ -55,23 +55,18 @@ body{
 
 /* adaptive views */
 .show-for-desktop,
-.show-for-tablet
+.show-for-tablet,
 .show-for-mobile{
   display:none;
 }
-/* .show-for-mobile{
 
-}
-.show-for-tablet{
-  
-}
-.show-for-desktop{
-
-} */
 /* desktop */
 @media only screen and (min-width:1220px){
   .show-for-desktop{
     display:block;
+  }
+  .show-for-desktop.flex-container{
+    display:flex;
   }
 }
 /*tablet*/
@@ -79,11 +74,17 @@ body{
   .show-for-tablet{
     display:block;
   }
+  .show-for-tablet.flex-container{
+    display:flex;
+  }
 }
 /*mobile*/
 @media only screen and (max-width:615px){
   .show-for-mobile{
     display:block;
+  }
+  .show-for-mobile.flex-container{
+    display:flex;
   }
 }
 
@@ -134,6 +135,7 @@ header{
   margin:0 auto;
   padding:30px 40px;
   transition: padding .2s;
+  position:relative;
 }
 .header-logo{
   height:35px;
@@ -186,8 +188,21 @@ header.scrolled{
 header.scrolled .header-content{
   padding:8px 40px;
 }
+@media only screen and (max-width:615px){
+  header.scrolled .header-content{
+    padding:16px 40px;
+  }
+}
 header.scrolled .header-logo{
   height:28px;
+}
+
+/* mobile hamburger menu styles */
+.mobile-menu-icon{
+  display: inline-block;
+  background-image:url("/img/ui/hamburger-menu-icon.png");
+  width:24px;
+  height:24px;
 }
 
 /* responsive */
@@ -197,6 +212,17 @@ header.scrolled .header-logo{
   }
   nav a{
     flex:auto;
+    width:100%;
+  }
+  /* when shown */
+  header.menu-open{
+    background-color:var(--dark);
+  }
+  header.menu-open nav{
+    position:absolute;
+    display:flex!important;
+    top:100%;
+    left:0;
     width:100%;
   }
 }
