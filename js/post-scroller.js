@@ -1,10 +1,13 @@
 window.addEventListener("load", function(){
 
+  console.log("post-scroller.js loaded");
+
   var selectedContent = 0;
   var margLeft = 0;
   var margRightOffset = 0;
 
   //this will be rebuilt to create the content from this array as well
+  // accctuuuuaaalllyyy, this should be built using a JSON file!
   let contentArray = ["test1", "test2", "test3", "test4"];
 
 

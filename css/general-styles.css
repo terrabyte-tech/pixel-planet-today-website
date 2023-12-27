@@ -133,11 +133,13 @@ header{
   max-width:1200px;
   margin:0 auto;
   padding:30px 40px;
+  transition: padding .2s;
 }
 .header-logo{
   height:35px;
   background-image:url('../img/pixel-planet-today-white-lettering.png');
   width:150px;
+  transition: height .2s;
 }
 nav{
   background-color:var(--dark);
@@ -182,10 +184,21 @@ header.scrolled{
   background-color:var(--dark);
 }
 header.scrolled .header-content{
-  padding:12px 40px;
+  padding:8px 40px;
 }
 header.scrolled .header-logo{
   height:28px;
+}
+
+/* responsive */
+@media only screen and (max-width:615px){
+  nav{
+    flex-wrap:wrap;
+  }
+  nav a{
+    flex:auto;
+    width:100%;
+  }
 }
 
 
