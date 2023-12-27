@@ -12,6 +12,15 @@
   scroll-behavior: inherit;
 }
 
+:root{
+  /* fonts */
+  --primary-font: 'Press Start 2P', sans-serif;
+  --secondary-font: 'VT323', monospace;
+
+  --dark: #222222;
+  --light: white;
+}
+
 *::selection{
   color:#333333;
 	background-color:white;
@@ -28,7 +37,7 @@ html{
 body{
   background-color:#222222;
   color:white;  
-  font-family: 'VT323', monospace;
+  font-family: var(--secondary-font);
   font-size:22px;
   line-height:1.3em;
   letter-spacing:1px;
@@ -46,23 +55,18 @@ body{
 
 /* adaptive views */
 .show-for-desktop,
-.show-for-tablet
+.show-for-tablet,
 .show-for-mobile{
   display:none;
 }
-/* .show-for-mobile{
 
-}
-.show-for-tablet{
-  
-}
-.show-for-desktop{
-
-} */
 /* desktop */
 @media only screen and (min-width:1220px){
   .show-for-desktop{
     display:block;
+  }
+  .show-for-desktop.flex-container{
+    display:flex;
   }
 }
 /*tablet*/
@@ -70,11 +74,17 @@ body{
   .show-for-tablet{
     display:block;
   }
+  .show-for-tablet.flex-container{
+    display:flex;
+  }
 }
 /*mobile*/
 @media only screen and (max-width:615px){
   .show-for-mobile{
     display:block;
+  }
+  .show-for-mobile.flex-container{
+    display:flex;
   }
 }
 
@@ -111,9 +121,116 @@ section{
 /*********************/
 /*shared native element styles*/
 /* headers*/
+header{
+  position:fixed;
+  z-index:99;
+  top:0;
+  width:100%;
+  /* background-color:#222222; */
+  transition:.3s;
+}
+.header-content{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  padding:30px 40px;
+  transition: padding .2s;
+  position:relative;
+}
+.header-logo{
+  height:35px;
+  background-image:url('../img/pixel-planet-today-white-lettering.png');
+  width:150px;
+  transition: height .2s;
+}
+nav{
+  background-color:var(--dark);
+}
+nav a{
+  padding:7px 13px;
+  font-size: 14px;
+  font-family: var(--primary-font);
+  transform:scale(1);
+	position:relative;
+	display:inline-block;
+  letter-spacing: normal;
+	transition:.25s;
+}
+nav a:after{
+	/* nothing at first */
+}
+nav a:hover:after{
+  content:"";
+	position:absolute;
+	left:0;
+  bottom:0;
+	width:100%;
+	height:3px;
+	background-color:currentColor;
+  pointer-events: none;
+	animation:hoverLink .55s;
+}
+nav a:active{
+	transform:scale(.95);
+}
+nav a.selected{
+  background-color:white;
+  color:#333333;
+}
+nav a.selected:after{
+  opacity:0;
+}
+
+/* after-scrolling header styles */
+header.scrolled{
+  background-color:var(--dark);
+}
+header.scrolled .header-content{
+  padding:8px 40px;
+}
+@media only screen and (max-width:615px){
+  header.scrolled .header-content{
+    padding:16px 40px;
+  }
+}
+header.scrolled .header-logo{
+  height:28px;
+}
+
+/* mobile hamburger menu styles */
+.mobile-menu-icon{
+  display: inline-block;
+  background-image:url("/img/ui/hamburger-menu-icon.png");
+  width:24px;
+  height:24px;
+}
+
+/* responsive */
+@media only screen and (max-width:615px){
+  nav{
+    flex-wrap:wrap;
+  }
+  nav a{
+    flex:auto;
+    width:100%;
+  }
+  /* when shown */
+  header.menu-open{
+    background-color:var(--dark);
+  }
+  header.menu-open nav{
+    position:absolute;
+    display:flex!important;
+    top:100%;
+    left:0;
+    width:100%;
+  }
+}
+
+
 /*section large headers*/
 h1{
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: var(--primary-font);
   text-transform: uppercase;
   font-size:30px;
   margin-bottom:50px;
@@ -122,7 +239,7 @@ h1{
 }
 /*hero question, how to support the project*/
 h2{
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: var(--primary-font);
   text-transform: uppercase;
   font-size:18px;
   margin-bottom:20px;
@@ -130,7 +247,7 @@ h2{
 }
 /*hero options*/
 h3{
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: var(--primary-font);
   text-transform: uppercase;
   font-size:14px;
   line-height:1em;
@@ -212,7 +329,7 @@ input[type="text"],
 input[type="email"],
 input[type="number"]{
   color:inherit;
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: var(--primary-font);
   font-size:inherit;
   width:100%;
   display:block;
@@ -244,7 +361,7 @@ input:focus{
 button,
 input[type="submit"]{
   display:inline-block;
-  font-family: 'Press Start 2P', sans-serif;
+  font-family: var(--primary-font);
   text-transform:uppercase;
   color:inherit;
   background-color:transparent;
