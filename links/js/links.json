@@ -1,17 +1,23 @@
 {
   "linkSections": [
     {
-      "label": "Read more on the latest post", "linkItems": [
+      "label": "Hello Omaha:", "linkItems": [
         {
-          "label": "State of the Amazon",
-          "icon": "",
-          "href": "https://www.theguardian.com/environment/2024/jan/25/optimism-dries-up-amazon-lula-drifts-climate-priorities-brazil",
-          "styleClass": ""
+          "label": "The Dirty 'C' Word (Climate) Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2024/02/12/hello-omaha-the-dirty-c-word-climate/",
+          "styleClass": "blog"
         }
       ]
     },
     {
       "label": "Highlights", "linkItems": [
+        {
+          "label": "See us at GTF Berlin!",
+          "icon": "",
+          "href": "https://greentechfestival.com/startup/",
+          "styleClass": ""
+        },
         {
           "label": "2023 Wrapped Blog Post",
           "icon": "blog-icon",
@@ -122,6 +128,12 @@
   "oldPostSources": [
     {
       "label": "Old Post Sources", "linkItems": [
+        {
+          "label": "State of the Amazon",
+          "icon": "",
+          "href": "https://www.theguardian.com/environment/2024/jan/25/optimism-dries-up-amazon-lula-drifts-climate-priorities-brazil",
+          "styleClass": ""
+        },
         {
           "label": "COP28 ends with call to 'transition away' from fossil fuels",
           "icon": "",
