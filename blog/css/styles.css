@@ -122,6 +122,9 @@ header#masthead.scrolled{
   .primary-navigation-open .primary-navigation{
     position:relative;
   }
+  .primary-navigation-open .primary-navigation > .primary-menu-container{
+    position:fixed;
+  }
 }
 
 .primary-navigation a{
