@@ -75,7 +75,9 @@ a:hover:after{
 /* page header */
 /* STICKY HEADER */
 header#masthead{
+  transition:padding .2s;
   position:fixed;
+  top:0;
   left:0;
   right:0;
   z-index:100;
@@ -83,7 +85,6 @@ header#masthead{
   padding:20px 0;
 }
 header#masthead.scrolled{
-  /* background-color:red; */
   padding:8px 40px;
 }
 @media only screen and (max-width:615px){
@@ -91,6 +92,26 @@ header#masthead.scrolled{
     /* padding:16px 40px; */
   }
 }
+@media only screen and (max-width: 481px){
+  .site-header.has-logo:not(.has-title-and-tagline).has-menu .site-logo{
+    position:relative;
+    top:auto;
+  }
+  .site-branding{
+    margin-right:auto;
+  }
+  .primary-navigation{
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  .menu-button-container{
+    right: 0;
+    top: auto;
+    position: relative;
+  }
+}
+
 .primary-navigation a{
 	font-family:'Press Start 2P', sans-serif!important;
 	font-size:14px!important;
