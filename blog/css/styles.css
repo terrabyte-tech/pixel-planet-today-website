@@ -325,7 +325,7 @@ header.entry-header{
 	max-width: var(--responsive--alignwide-width);
 }
 .entry-title{
-	font-size:36px!important;
+	font-size:36px;
 	align-self:center;
 	order:2;
 	margin-left:30px;
@@ -336,6 +336,11 @@ header.entry-header{
 .entry-title a:after{
 	height:5px;
 	top:calc(100% + 3px);
+}
+@media only screen and (max-width: 615px){
+  .entry-title{
+    font-size:18px;
+  }
 }
 /* featured image */
 .post-thumbnail{
