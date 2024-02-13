@@ -85,14 +85,21 @@ header#masthead{
   padding:20px 0;
 }
 header#masthead.scrolled{
-  padding:8px 40px;
+  padding:8px 0px;
 }
 @media only screen and (max-width:615px){
+  header#masthead{
+    padding:8px 0;
+  }
   header#masthead.scrolled{
-    /* padding:16px 40px; */
+    padding:0px;
   }
 }
 @media only screen and (max-width: 481px){
+  header#masthead,
+  header#masthead.scrolled{
+    padding:0px 20px;
+  }
   .site-header.has-logo:not(.has-title-and-tagline).has-menu .site-logo{
     position:relative;
     top:auto;
