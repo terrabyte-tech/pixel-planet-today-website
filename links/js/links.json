@@ -1,29 +1,7 @@
 {
   "linkSections": [
     {
-      "label": "Hello Omaha:", "linkItems": [
-        {
-          "label": "The Dirty 'C' Word (Climate) Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2024/02/12/hello-omaha-the-dirty-c-word-climate/",
-          "styleClass": "blog"
-        }
-      ]
-    },
-    {
       "label": "Highlights", "linkItems": [
-        {
-          "label": "See us at GTF Berlin!",
-          "icon": "",
-          "href": "https://greentechfestival.com/startup/",
-          "styleClass": ""
-        },
-        {
-          "label": "2023 Wrapped Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2023/12/22/2023-wrapped/",
-          "styleClass": "blog"
-        },
         {
           "label": "Newsletter",
           "icon": "newsletter-icon",
@@ -31,13 +9,19 @@
           "styleClass": "newsletter"
         },
         {
-          "label": "Book Lovers Bookmark Set",
+          "label": "See us at GTF Berlin!",
+          "icon": "",
+          "href": "https://greentechfestival.com/startup/",
+          "styleClass": ""
+        },
+        {
+          "label": "Pixelmojios Volume 1",
           "icon": "shop-icon",
-          "href": "https://pixelplanettoday.square.site/product/book-lovers-bookmark-set-ready-to-print-/18?cs=true&cst=custom",
+          "href": "https://pixelplanettoday.square.site/product/pixelmojios-volume-1-digital-/22?cp=true&sa=true&sbp=false&q=false",
           "styleClass": "shop"
         },
         {
-          "label": "Shop",
+          "label": "Webstore",
           "icon": "shop-icon",
           "href": "https://shop.pixelplanettoday.com",
           "styleClass": "shop"
@@ -86,6 +70,24 @@
   "oldLinks": [
     {
       "label": "Old Links", "linkItems": [
+        {
+          "label": "Book Lovers Bookmark Set",
+          "icon": "shop-icon",
+          "href": "https://pixelplanettoday.square.site/product/book-lovers-bookmark-set-ready-to-print-/18?cs=true&cst=custom",
+          "styleClass": "shop"
+        },
+        {
+          "label": "2023 Wrapped Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2023/12/22/2023-wrapped/",
+          "styleClass": "blog"
+        },
+        {
+          "label": "The Dirty 'C' Word (Climate) Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2024/02/12/hello-omaha-the-dirty-c-word-climate/",
+          "styleClass": "blog"
+        },
         {
           "label": "Pinekeepers",
           "icon": "pinekeepers-icon",
