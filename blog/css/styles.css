@@ -172,13 +172,13 @@ a.custom-logo-link:after{
 .page-header{
 	border-bottom:none;
 }
-.page-title{
+.page-title,
+.entry-title{
 	font-size:36px;
 }
 .page-title .page-description.search-term{
 	word-break:break-word;
 }
-
 
 /* search button styles */
 .wp-block-search__button.has-icon, .search-submit{
@@ -325,7 +325,8 @@ header.entry-header{
 	max-width: var(--responsive--alignwide-width);
 }
 .entry-title{
-	font-size:36px;
+	font-size:36px!important;
+  line-height: var(--heading--line-height-h2)!important;
 	align-self:center;
 	order:2;
 	margin-left:30px;
@@ -339,7 +340,7 @@ header.entry-header{
 }
 @media only screen and (max-width: 615px){
   .entry-title{
-    font-size:18px;
+    font-size:18px!important;
   }
 }
 /* featured image */
