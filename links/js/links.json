@@ -3,10 +3,10 @@
     {
       "label": "Highlights", "linkItems": [
         {
-          "label": "Newsletter",
-          "icon": "newsletter-icon",
-          "href": "https://pixelplanettoday.com/#newsletter",
-          "styleClass": "newsletter"
+          "label": "Wasted Space (Beta Login)",
+          "icon": "",
+          "href": "https://terrabyte.eco/wasted-space",
+          "styleClass": ""
         },
         {
           "label": "See us at GTF Berlin!",
@@ -21,6 +21,28 @@
           "styleClass": "shop"
         },
         {
+          "label": "Website",
+          "icon": "website-icon",
+          "href": "https://pixelplanettoday.com",
+          "styleClass": "website"
+        },
+      ]
+    },
+    {
+      "label": "The Usual", "linkItems": [
+        {
+          "label": "Newsletter",
+          "icon": "newsletter-icon",
+          "href": "https://pixelplanettoday.com/#newsletter",
+          "styleClass": "newsletter"
+        },
+        {
+          "label": "Blog",
+          "icon": "blog-icon",
+          "href": "https://blog.pixelplanettoday.com",
+          "styleClass": "blog"
+        },
+        {
           "label": "Webstore",
           "icon": "shop-icon",
           "href": "https://shop.pixelplanettoday.com",
@@ -31,22 +53,6 @@
           "icon": "etsy-icon",
           "href": "https://www.etsy.com/shop/TerrabyteLLC",
           "styleClass": "etsy"
-        }
-      ]
-    },
-    {
-      "label": "The Usual", "linkItems": [
-        {
-          "label": "Website",
-          "icon": "website-icon",
-          "href": "https://pixelplanettoday.com",
-          "styleClass": "website"
-        },
-        {
-          "label": "Blog",
-          "icon": "blog-icon",
-          "href": "https://blog.pixelplanettoday.com",
-          "styleClass": "blog"
         },
         {
           "label": "Terrabyte Website",
