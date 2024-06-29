@@ -3,16 +3,10 @@
     {
       "label": "Highlights", "linkItems": [
         {
-          "label": "Wasted Space (Beta Login)",
-          "icon": "",
-          "href": "https://terrabyte.eco/wasted-space",
-          "styleClass": ""
-        },
-        {
-          "label": "See us at GTF Berlin!",
-          "icon": "",
-          "href": "https://greentechfestival.com/startup/",
-          "styleClass": ""
+          "label": "Presidential Debate Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2024/06/28/an-environmental-look-at-the-first-presidential-debate/",
+          "styleClass": "blog"
         },
         {
           "label": "Pixelmojios Volume 1",
@@ -76,6 +70,18 @@
   "oldLinks": [
     {
       "label": "Old Links", "linkItems": [
+        {
+          "label": "Wasted Space Beta",
+          "icon": "",
+          "href": "https://terrabyte.eco/wasted-space",
+          "styleClass": ""
+        },
+        {
+          "label": "See us at GTF Berlin!",
+          "icon": "",
+          "href": "https://greentechfestival.com/startup/",
+          "styleClass": ""
+        },
         {
           "label": "Book Lovers Bookmark Set",
           "icon": "shop-icon",
