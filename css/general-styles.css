@@ -359,6 +359,7 @@ input:focus{
   position: relative;
 }
 button,
+.button,
 input[type="submit"]{
   display:inline-block;
   font-family: var(--primary-font);
@@ -374,22 +375,28 @@ input[type="submit"]{
 }
 
 button:hover,
+.button:hover,
 input[type="submit"]:hover,
-button.selected{
+button.selected,
+.button.selected{
   background-color:rgba(255,255,255,.5);
 }
 button:active,
+.button:active,
 input[type="submit"]:active{
   background-color:white;
   color:#e3e3e3;
 }
-button.primary{
+button.primary,
+.button.primary{
   background-color:rgba(0,0,0,.35);
 }
-button.primary:hover{
+button.primary:hover,
+.button.primary:hover{
   background-color:rgba(0,0,0,.55);
 }
-button.primary:active{
+button.primary:active,
+.button.primary:active{
   background-color:rgba(0,0,0,.15);
 
 }
