@@ -3,16 +3,22 @@
     {
       "label": "Highlights", "linkItems": [
         {
+          "label": "Wasted Space Beta",
+          "icon": "",
+          "href": "https://terrabyte.eco/wasted-space",
+          "styleClass": ""
+        },
+        {
+          "label": "Newsletter",
+          "icon": "newsletter-icon",
+          "href": "https://pixelplanettoday.com/#newsletter",
+          "styleClass": "newsletter"
+        },
+        {
           "label": "Presidential Debate Blog Post",
           "icon": "blog-icon",
           "href": "https://www.blog.pixelplanettoday.com/2024/06/28/an-environmental-look-at-the-first-presidential-debate/",
           "styleClass": "blog"
-        },
-        {
-          "label": "Pixelmojios Volume 1",
-          "icon": "shop-icon",
-          "href": "https://pixelplanettoday.square.site/product/pixelmojios-volume-1-digital-/22?cp=true&sa=true&sbp=false&q=false",
-          "styleClass": "shop"
         },
         {
           "label": "Website",
@@ -25,22 +31,16 @@
     {
       "label": "The Usual", "linkItems": [
         {
-          "label": "Newsletter",
-          "icon": "newsletter-icon",
-          "href": "https://pixelplanettoday.com/#newsletter",
-          "styleClass": "newsletter"
+          "label": "Webstore",
+          "icon": "shop-icon",
+          "href": "https://shop.pixelplanettoday.com",
+          "styleClass": "shop"
         },
         {
           "label": "Blog",
           "icon": "blog-icon",
           "href": "https://blog.pixelplanettoday.com",
           "styleClass": "blog"
-        },
-        {
-          "label": "Webstore",
-          "icon": "shop-icon",
-          "href": "https://shop.pixelplanettoday.com",
-          "styleClass": "shop"
         },
         {
           "label": "Terrabyte on Etsy",
@@ -71,10 +71,10 @@
     {
       "label": "Old Links", "linkItems": [
         {
-          "label": "Wasted Space Beta",
-          "icon": "",
-          "href": "https://terrabyte.eco/wasted-space",
-          "styleClass": ""
+          "label": "Pixelmojios Volume 1",
+          "icon": "shop-icon",
+          "href": "https://pixelplanettoday.square.site/product/pixelmojios-volume-1-digital-/22?cp=true&sa=true&sbp=false&q=false",
+          "styleClass": "shop"
         },
         {
           "label": "See us at GTF Berlin!",
