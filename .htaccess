@@ -1,3 +1,25 @@
+# Prevent access to some files
+<FilesMatch "^(wp-config.php|readme.html|license.txt|README.md|.gitignore|.gitattributes|.htaccess|error_log)">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</FilesMatch>
+
+# long cache for items in /img
+<Directory "/img">
+Header set Cache-Control "max-age=604800, must-revalidate"
+</Directory>
+
+# long cache for other files
+<FilesMatch "\.(js|css|swf|php|html|json)$">
+Header set Cache-Control "max-age=604800, must-revalidate"
+</FilesMatch>
+
+# loooong cache for items that may never update
+<FilesMatch "\.(ico|pdf|flv)$">
+Header set Cache-Control "max-age=2592000, must-revalidate"
+</FilesMatch>
+
 ErrorDocument 400 /error.php
 ErrorDocument 401 /error.php
 ErrorDocument 403 /error.php
