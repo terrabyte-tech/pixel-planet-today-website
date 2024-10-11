@@ -15,21 +15,27 @@
           "styleClass": "newsletter"
         },
         {
-          "label": "Presidential Debate Blog Post",
+          "label": "Second Presidential Debate Blog Post",
           "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2024/06/28/an-environmental-look-at-the-first-presidential-debate/",
+          "href": "https://www.blog.pixelplanettoday.com/2024/09/14/another-debate-another-environmental-overview/",
           "styleClass": "blog"
         },
         {
-          "label": "Website",
-          "icon": "website-icon",
-          "href": "https://pixelplanettoday.com",
-          "styleClass": "website"
+          "label": "byteOS: Notes on Google Play",
+          "icon": "",
+          "href": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes",
+          "styleClass": ""
         }
       ]
     },
     {
       "label": "The Usual", "linkItems": [
+        {
+          "label": "Website",
+          "icon": "website-icon",
+          "href": "https://pixelplanettoday.com",
+          "styleClass": "website"
+        },
         {
           "label": "Webstore",
           "icon": "shop-icon",
@@ -70,6 +76,12 @@
   "oldLinks": [
     {
       "label": "Old Links", "linkItems": [
+        {
+          "label": "Second Presidential Debate Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2024/06/28/an-environmental-look-at-the-first-presidential-debate/",
+          "styleClass": "blog"
+        },
         {
           "label": "Pixelmojios Volume 1",
           "icon": "shop-icon",
