@@ -3,34 +3,28 @@
     {
       "label": "Highlights", "linkItems": [
         {
+          "label": "Wasted Space Beta",
+          "icon": "",
+          "href": "https://terrabyte.eco/wasted-space",
+          "styleClass": ""
+        },
+        {
           "label": "Newsletter",
           "icon": "newsletter-icon",
           "href": "https://pixelplanettoday.com/#newsletter",
           "styleClass": "newsletter"
         },
         {
-          "label": "See us at GTF Berlin!",
+          "label": "Second Presidential Debate Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2024/09/14/another-debate-another-environmental-overview/",
+          "styleClass": "blog"
+        },
+        {
+          "label": "byteOS: Notes on Google Play",
           "icon": "",
-          "href": "https://greentechfestival.com/startup/",
+          "href": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes",
           "styleClass": ""
-        },
-        {
-          "label": "Pixelmojios Volume 1",
-          "icon": "shop-icon",
-          "href": "https://pixelplanettoday.square.site/product/pixelmojios-volume-1-digital-/22?cp=true&sa=true&sbp=false&q=false",
-          "styleClass": "shop"
-        },
-        {
-          "label": "Webstore",
-          "icon": "shop-icon",
-          "href": "https://shop.pixelplanettoday.com",
-          "styleClass": "shop"
-        },
-        {
-          "label": "Terrabyte on Etsy",
-          "icon": "etsy-icon",
-          "href": "https://www.etsy.com/shop/TerrabyteLLC",
-          "styleClass": "etsy"
         }
       ]
     },
@@ -43,10 +37,22 @@
           "styleClass": "website"
         },
         {
+          "label": "Webstore",
+          "icon": "shop-icon",
+          "href": "https://shop.pixelplanettoday.com",
+          "styleClass": "shop"
+        },
+        {
           "label": "Blog",
           "icon": "blog-icon",
           "href": "https://blog.pixelplanettoday.com",
           "styleClass": "blog"
+        },
+        {
+          "label": "Terrabyte on Etsy",
+          "icon": "etsy-icon",
+          "href": "https://www.etsy.com/shop/TerrabyteLLC",
+          "styleClass": "etsy"
         },
         {
           "label": "Terrabyte Website",
@@ -70,6 +76,24 @@
   "oldLinks": [
     {
       "label": "Old Links", "linkItems": [
+        {
+          "label": "Second Presidential Debate Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2024/06/28/an-environmental-look-at-the-first-presidential-debate/",
+          "styleClass": "blog"
+        },
+        {
+          "label": "Pixelmojios Volume 1",
+          "icon": "shop-icon",
+          "href": "https://pixelplanettoday.square.site/product/pixelmojios-volume-1-digital-/22?cp=true&sa=true&sbp=false&q=false",
+          "styleClass": "shop"
+        },
+        {
+          "label": "See us at GTF Berlin!",
+          "icon": "",
+          "href": "https://greentechfestival.com/startup/",
+          "styleClass": ""
+        },
         {
           "label": "Book Lovers Bookmark Set",
           "icon": "shop-icon",
