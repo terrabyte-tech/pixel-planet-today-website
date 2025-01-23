@@ -3,6 +3,12 @@
     {
       "label": "Highlights", "linkItems": [
         {
+          "label": "Year in Review Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2025/01/02/founders-letter-2024/",
+          "styleClass": "blog"
+        },
+        {
           "label": "Wasted Space Beta",
           "icon": "",
           "href": "https://terrabyte.eco/wasted-space",
@@ -13,18 +19,6 @@
           "icon": "newsletter-icon",
           "href": "https://pixelplanettoday.com/#newsletter",
           "styleClass": "newsletter"
-        },
-        {
-          "label": "Second Presidential Debate Blog Post",
-          "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2024/09/14/another-debate-another-environmental-overview/",
-          "styleClass": "blog"
-        },
-        {
-          "label": "byteOS: Notes on Google Play",
-          "icon": "",
-          "href": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes",
-          "styleClass": ""
         }
       ]
     },
@@ -76,6 +70,12 @@
   "oldLinks": [
     {
       "label": "Old Links", "linkItems": [
+        {
+          "label": "byteOS: Notes on Google Play",
+          "icon": "",
+          "href": "https://play.google.com/store/apps/details?id=com.terrabyte.byteosnotes",
+          "styleClass": ""
+        },
         {
           "label": "Second Presidential Debate Blog Post",
           "icon": "blog-icon",
