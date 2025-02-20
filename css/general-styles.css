@@ -7,6 +7,7 @@
   margin:0;
   padding:0;
   background-position:center;
+  image-rendering: pixelated;
   background-size:contain;
   background-repeat:no-repeat;
   scroll-behavior: inherit;
