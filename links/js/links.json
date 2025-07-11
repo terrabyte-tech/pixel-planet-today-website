@@ -3,22 +3,22 @@
     {
       "label": "Highlights", "linkItems": [
         {
-          "label": "Year in Review Blog Post",
+          "label": "Beyond Tomorrow 2025 Blog Post",
           "icon": "blog-icon",
-          "href": "https://www.blog.pixelplanettoday.com/2025/01/02/founders-letter-2024/",
+          "href": "https://www.blog.pixelplanettoday.com/?p=399",
           "styleClass": "blog"
         },
         {
-          "label": "Wasted Space Beta",
-          "icon": "",
-          "href": "https://terrabyte.eco/wasted-space",
-          "styleClass": ""
+          "label": "Shop new stuff!",
+          "icon": "shop-icon",
+          "href": "https://shop.pixelplanettoday.com",
+          "styleClass": "shop"
         },
         {
-          "label": "Newsletter",
-          "icon": "newsletter-icon",
-          "href": "https://pixelplanettoday.com/#newsletter",
-          "styleClass": "newsletter"
+          "label": "My Experience at Terrabyte Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2025/06/25/my-experience-at-terrabyte/",
+          "styleClass": "blog"
         }
       ]
     },
@@ -31,10 +31,10 @@
           "styleClass": "website"
         },
         {
-          "label": "Webstore",
-          "icon": "shop-icon",
-          "href": "https://shop.pixelplanettoday.com",
-          "styleClass": "shop"
+          "label": "Newsletter",
+          "icon": "newsletter-icon",
+          "href": "https://pixelplanettoday.com/#newsletter",
+          "styleClass": "newsletter"
         },
         {
           "label": "Blog",
@@ -43,10 +43,10 @@
           "styleClass": "blog"
         },
         {
-          "label": "Terrabyte on Etsy",
-          "icon": "etsy-icon",
-          "href": "https://www.etsy.com/shop/TerrabyteLLC",
-          "styleClass": "etsy"
+          "label": "Wasted Space Beta",
+          "icon": "",
+          "href": "https://terrabyte.eco/wasted-space",
+          "styleClass": ""
         },
         {
           "label": "Terrabyte Website",
@@ -70,6 +70,12 @@
   "oldLinks": [
     {
       "label": "Old Links", "linkItems": [
+        {
+          "label": "Year in Review Blog Post",
+          "icon": "blog-icon",
+          "href": "https://www.blog.pixelplanettoday.com/2025/01/02/founders-letter-2024/",
+          "styleClass": "blog"
+        },
         {
           "label": "byteOS: Notes on Google Play",
           "icon": "",
