@@ -1,3 +1,6 @@
+/* DEPRECATE THIS STYLESHEET IN PREFERENCE FOR https://terrabyte.eco/css/shared-pixel-styles.css */
+
+
 /****************/
 /*page styles*/
 *,
@@ -29,10 +32,6 @@
 *::-moz-selection{
   color:#333333;
 	background-color: white;
-}
-
-html{
-	scroll-behavior: smooth;
 }
 
 body{
@@ -399,13 +398,13 @@ button.primary:hover,
 button.primary:active,
 .button.primary:active{
   background-color:rgba(0,0,0,.15);
-
 }
 
 
 /***************************/
 /*custom element/class styles*/
 /*when javascript isn't enabled, toast message*/
+/* DEPRECATE; USE BANNERS.NJK */
 .toast-message{
   z-index:900;
   position:absolute;
@@ -419,7 +418,7 @@ button.primary:active,
 }
 
 /*content styles*/
-.strikethru{
+/* .strikethru{
   display:inline-block;
   position:relative;
 }
@@ -432,10 +431,11 @@ button.primary:active,
   position: absolute;
   top: .5em;
   left: -10%;
-}
-.ignore-clicks{
+} */
+/* utilize aurum .no-click */
+/* .ignore-clicks{
   pointer-events:none;
-}
+} */
 
 .pixel-social-icon{
   background-image:url("../img/icons/social-spritesheet.png");
