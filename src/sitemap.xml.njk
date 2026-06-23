@@ -1,0 +1,21 @@
+---
+permalink: sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for page in collections.all %}
+    {% if page.url and not page.data.noIndex %}
+      <url>
+        <loc>{{ page.url | canonicalUrl }}</loc>
+        {# Calculate depth #}
+        {% if page.url == '/' %}{% set depth = 0 %}
+        {% else %}{% set depth = page.url | trim('/') | split('/') | length %}{% endif %}
+        {# Calculate priority #}
+        {% set priority = 1.0 - (depth * 0.1) %}
+        {% if priority > 0.1 %}<priority>{{ priority | round(1, 'floor') }}</priority>
+        {% else %}<priority>0.1</priority>{% endif %}
+      </url>
+    {% endif %}
+  {% endfor %}
+</urlset>

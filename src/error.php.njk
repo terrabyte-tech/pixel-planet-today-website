@@ -1,0 +1,50 @@
+---
+subtitle: That's an error...
+layout: layouts/project-base.njk
+permalink: error.php
+eleventyExcludeFromCollections: true
+noIndex: true
+---
+
+<?php
+  $page_redirected_from = $_SERVER['REQUEST_URI'];  // this is especially useful with error 404 to indicate the missing page.
+  $server_url = "http://" . $_SERVER["SERVER_NAME"];
+  $redirect_url = $_SERVER["REDIRECT_URL"];
+  $redirect_url_array = parse_url($redirect_url);
+  $end_of_path = strrchr($redirect_url_array["path"], "/");
+
+  switch(getenv("REDIRECT_STATUS")){
+    # "400 - Bad Request"
+    case 400:
+    $error_code = "400";
+    break;
+
+    # "401 - Unauthorized"
+    case 401:
+    $error_code = "401";
+    break;
+
+    # "403 - Forbidden"
+    case 403:
+    $error_code = "403";
+    break;
+
+    # "404 - Not Found"
+    case 404:
+    $error_code = "404";
+    break;
+  }
+?>
+
+<section id="error" class="padded-section">
+  <div class="max-width" data-au="flex-container flex-vertical medium-gap">
+    <div class="section-header">
+      <h1><span class="highlight-container">That's an Error (<?php print ($error_code); ?>)</span></h1>
+    </div>
+    <div class="section-content" data-au="flex-container flex-vertical small-gap">
+      <p>Looks like we found a bad byte and some dead pixels. Check the URL above and try again.</p>
+      <p>You can also head to the homepage (<a class="text-link" href="<?php print ($server_url); ?>"><?php print ($server_url); ?></a>) to try to find what you were looking for there.</p>
+      <p>Or, head to the <a class="text-link" href="https://www.terrabyte.eco">Terrabyte website</a> to start your digital eco-journey over from the top.</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+<header data-header>
+  <div class="header-content" data-au="flex-container align-center">
+    <!-- pixel logo -->
+    <div class="header-logo-container" data-au="flex-width">
+      <a data-au="set-width" href="https://www.pixelplanettoday.com">
+        <div class="header-logo ppt-logo" data-au="set-width"></div>
+      </a>
+    </div>
+    <div data-mobile-menu-trigger class="show-for-mobile" data-au="flex-container all-center">
+      <a class="mobile-menu-icon"></a>
+    </div>
+    <nav class="show-for-desktop show-for-tablet" data-au="set-width flex-container align-center">
+      <a class="{% if navSelected == 'home' %}selected{% endif %}" href="/">Home</a>
+      <!-- <a class="" href="/links/index.html">Links</a> -->
+      <a class="{% if navSelected == 'shop' %}selected{% endif %}" href="https://shop.pixelplanettoday.com">Shop</a>
+      <a class="{% if navSelected == 'blog' %}selected{% endif %}" href="https://blog.pixelplanettoday.com">Blog</a>
+    </nav>
+  </div>
+</header>

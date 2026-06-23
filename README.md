@@ -6,7 +6,7 @@ The official Pixel Planet Today website (pixelplanettoday.com).
 
 ## Sitemap Overview
 
-Website currently shows a space-themed hero compostition that, as the user scrolls down the page, goes down closer to the Earth's surface.
+Website currently shows a space-themed hero composition that, as the user scrolls down the page, goes down closer to the Earth's surface.
 
 - Links
   - A Linktree-esque solution to highlighting links to various Terrabyte projects, Pixel Planet Today posts, and other goodies
