@@ -1,6 +1,6 @@
 window.addEventListener("load", function(){
 
-  console.log("post-scroller.js loaded");
+  console.log(`[${window.siteData.project}] post-scroller-scripts.js loaded`);
 
   var selectedContent = 0;
   var margLeft = 0;
