@@ -12,7 +12,7 @@
   left:-30px;
   width:370px;
   height:370px;
-  background-image: url("../img/newsletter-section-assets/nature-city.png");
+  background-image: url("/img/newsletter-section-assets/nature-city.png");
 }
 .city{
   position:absolute;
@@ -20,7 +20,7 @@
   left:-30px;
   width:370px;
   height:370px;
-  background-image: url("../img/newsletter-section-assets/city-half.png");
+  background-image: url("/img/newsletter-section-assets/city-half.png");
   background-position:bottom;
 }
 .trees{
@@ -29,7 +29,7 @@
   right:0px;
   width:370px;
   height:370px;
-  background-image: url("../img/newsletter-section-assets/trees-half.png");
+  background-image: url("/img/newsletter-section-assets/trees-half.png");
   background-position:bottom;
 }
 .green-block{

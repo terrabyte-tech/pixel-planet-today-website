@@ -1,14 +1,14 @@
 /*Home Page/Hero Section Element Styles*/
 /*hero section*/
 #hero{
-  background-image: url("../img/hero-assets/night-sky.png");
+  background-image: url("/img/hero-assets/night-sky.png");
   background-repeat: repeat;
   height: 100vh;
   min-height:600px;
 }
 
 #logo{
-  background-image:url("../img/hero-assets/anim-planet-final-with-lettering-trans.gif");
+  background-image:url("/img/hero-assets/anim-planet-final-with-lettering-trans.gif");
   background-size:100%;
   position:absolute;
   top:40%;
@@ -38,7 +38,7 @@
 }
 
 .selection-arrow{
-  background-image:url("../img/ui/right-arrow-anim.gif");
+  background-image:url("/img/pixel/ui/right-arrow-anim.gif");
   display:inline-block;
   width:16px;
   height:16px;
@@ -64,7 +64,7 @@
   bottom:0;
   right:0;
   transform:rotate(10deg) scaleX(-1);
-  background-image:url("../img/hero-assets/Astronaut-bob.gif");
+  background-image:url("/img/hero-assets/Astronaut-bob.gif");
   width:300px;
   height:300px;
 }
@@ -77,7 +77,7 @@
   width: 150px;
   height: 150px;
   transform: rotate(0deg) scaleX(-1);
-  background-image:url("../img/hero-assets/shop-speech-bubble.png");
+  background-image:url("/img/hero-assets/shop-speech-bubble.png");
 }
 
 .galaxy{
@@ -87,7 +87,7 @@
   top: -70px;
   right: -55px;
   transform: rotate(30deg);
-  background-image:url("../img/hero-assets/galaxy.png");
+  background-image:url("/img/hero-assets/galaxy.png");
 }
 .star-cluster-1{
   position:absolute;
@@ -95,7 +95,7 @@
   right:30px;
   width:200px;
   height:200px;
-  background-image:url("../img/hero-assets/star-cluster-1.png");
+  background-image:url("/img/hero-assets/star-cluster-1.png");
 }
 .star-cluster-2{
   position:absolute;
@@ -103,7 +103,7 @@
   right:75px;
   width:200px;
   height:200px;
-  background-image:url("../img/hero-assets/star-cluster-2.png");
+  background-image:url("/img/hero-assets/star-cluster-2.png");
 }
 
 .star-group *:nth-child(2){
@@ -133,20 +133,20 @@
   left:0;
   width:400px;
   height:400px;
-  background-image:url("../img/hero-assets/shooting-star-line.gif");
+  background-image:url("/img/hero-assets/shooting-star-line.gif");
 }
 .shooting-star:first-child{
-  background-image:url("../img/hero-assets/shooting-star-line.gif");
+  background-image:url("/img/hero-assets/shooting-star-line.gif");
 }
 .shooting-star:nth-child(2){
   width:350px;
   height:350px;
-  background-image:url("../img/hero-assets/shooting-star-line-delayed-2.gif");
+  background-image:url("/img/hero-assets/shooting-star-line-delayed-2.gif");
 }
 .shooting-star:nth-child(3){
   width:200px;
   height:200px;
-  background-image:url("../img/hero-assets/shooting-star-line-delayed.gif");
+  background-image:url("/img/hero-assets/shooting-star-line-delayed.gif");
 }
 
 .moon{
@@ -155,7 +155,7 @@
   left: 12%;
   width:450px;
   height:450px;
-  background-image:url("../img/hero-assets/cheese-moon.png");
+  background-image:url("/img/hero-assets/cheese-moon.png");
 }
 .sun{
   position:absolute;
@@ -163,7 +163,7 @@
   left: 40%;
   width: 350px;
   height: 350px;
-  background-image:url("../img/hero-assets/tiny-sun.png");
+  background-image:url("/img/hero-assets/tiny-sun.png");
 }
 .saturnish{
   position:absolute;
@@ -171,7 +171,7 @@
   left: -6%;
   width: 350px;
   height: 350px;
-  background-image:url("../img/hero-assets/saturn-ish.png");
+  background-image:url("/img/hero-assets/saturn-ish.png");
 }
 .mars{
   position:absolute;
@@ -179,7 +179,7 @@
   left: 70%;
   width: 60px;
   height: 60px;
-  background-image:url("../img/hero-assets/mars.png");
+  background-image:url("/img/hero-assets/mars.png");
 }
 .asteroid-belt{
   position:absolute;
@@ -189,7 +189,7 @@
   width: 800px;
   z-index:10;
   pointer-events: none;;
-  background-image:url("../img/hero-assets/asteroidbelt-taper.png");
+  background-image:url("/img/hero-assets/asteroidbelt-taper.png");
 }
 .asteroid-belt-corner{
   position:absolute;
@@ -197,7 +197,7 @@
   right: 0%;
   height: 600px;
   width: 600px;
-  background-image:url("../img/hero-assets/asteroidbelt-corner.png");
+  background-image:url("/img/hero-assets/asteroidbelt-corner.png");
 }
 
 

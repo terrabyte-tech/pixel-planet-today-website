@@ -42,9 +42,14 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy({
     "node_modules/@terrabyte/web-ui/css": "css",
-    "node_modules/@terrabyte/web-ui/js": "js",
-    "node_modules/@terrabyte/web-ui/img": "img"
+    "node_modules/@terrabyte/web-ui/js": "js"
   });
+
+  if (siteData.styleType === "pixel") {
+    eleventyConfig.addPassthroughCopy({
+      "node_modules/@terrabyte/web-ui/img/pixel": "img/pixel"
+    });
+  }
 
 // Watch targets
   eleventyConfig.addWatchTarget("src/css");

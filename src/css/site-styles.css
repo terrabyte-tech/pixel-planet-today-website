@@ -33,7 +33,7 @@ header{
 }
 .header-logo{
   height:35px;
-  background-image:url('../img/pixel-planet-today-white-lettering.png');
+  background-image:url('/img/branding/pixel-planet-today-white-lettering.png');
   width:150px;
   transition: height .2s;
 }
@@ -128,9 +128,7 @@ header.scrolled .header-logo{
   text-decoration-thickness: 0.14em;
 }
 
-/* responsive */
-@media only screen and (max-width: 600px){
-  body{
-    /*  */
-  }
+.footer-logo{
+  background-image:url('/img/branding/pixel-planet-today-white-lettering.png');
+  width:150px;
 }

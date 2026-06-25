@@ -1,6 +1,6 @@
 /* What the heck is the project section */
 #what-the-project{
-  background-image: url("../img/hero-assets/night-sky.png");
+  background-image: url("/img/hero-assets/night-sky.png");
   background-repeat: repeat;
 }
 
@@ -8,7 +8,7 @@
   position:absolute;
   
   /* background-image:url("../img/hero-assets/space-shuttle-super-extended-test.png"); */
-  background-image:url("../img/hero-assets/space-shuttle-super-extended.png");
+  background-image:url("/img/hero-assets/space-shuttle-super-extended.png");
   height:800px;
   width:110vw;
   min-width:2000px;
@@ -26,7 +26,7 @@
   z-index:9;
   width:110vw;
   height:500px;
-  background-image:url("../img/hero-assets/space-shuttle-super-extended-repeating.png");
+  background-image:url("/img/hero-assets/space-shuttle-super-extended-repeating.png");
   background-repeat:repeat-x;
 }
 .ufo{
@@ -36,7 +36,7 @@
   right: 16%;
   width: 300px;
   height: 300px;
-  background-image: url("../img/hero-assets/ufo.png");
+  background-image: url("/img/hero-assets/ufo.png");
   pointer-events: none;
 }
 #what-the-project .shooting-star{

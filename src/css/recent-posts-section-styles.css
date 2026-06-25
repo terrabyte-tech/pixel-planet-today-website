@@ -21,7 +21,7 @@
   right:30px;
   width:370px;
   height:370px;
-  background-image: url("../img/post-section-assets/plane.png");
+  background-image: url("/img/post-section-assets/plane.png");
 }
 .birds{
   position:absolute;
@@ -30,7 +30,7 @@
   width:100px;
   height:100px;
   /* background-image: url("../img/post-section-assets/birds.png"); */
-  background-image: url("../img/post-section-assets/birds.gif");
+  background-image: url("/img/post-section-assets/birds.gif");
 }
 .single-bird{
   position:absolute;
@@ -38,7 +38,7 @@
   right:100px;
   width:50px;
   height:50px;
-  background-image: url("../img/post-section-assets/single-bird.gif");
+  background-image: url("/img/post-section-assets/single-bird.gif");
   /* background-image: url("../img/post-section-assets/single-bird.png"); */
 }
 
@@ -55,7 +55,7 @@
   height:50px;
   /* cursor:pointer; */
   /* cursor: url("../img/ui/finger-pointer-cursor.png"), pointer; */
-  cursor: url("../img/ui/mini-pointer-cursor.png"), pointer;
+  cursor: url("/img/pixel/ui/mini-pointer-cursor.png"), pointer;
 }
 .hide.fact-scroll-arrow{
   pointer-events:none;
@@ -64,12 +64,12 @@
 #left-arrow{
   right:calc(100% + 20px);
   transform:translateY(-50%);
-  background-image:url("../img/ui/left-arrow-anim.gif");
+  background-image:url("/img/pixel/ui/left-arrow-anim.gif");
 }
 #right-arrow{
   left:calc(100% + 20px);
   transform:translateY(-50%);
-  background-image:url("../img/ui/right-arrow-anim.gif");
+  background-image:url("/img/pixel/ui/right-arrow-anim.gif");
 }
 
 .fact-content-container{
@@ -86,19 +86,19 @@
   margin:0 auto;
 }
 [data-content="1"] .fact-graphic{
-  background-image:url("../img/post-section-assets/post-icons/mountain-day.png");
+  background-image:url("/img/post-section-assets/post-icons/mountain-day.png");
 }
 [data-content="2"] .fact-graphic{
-  background-image:url("../img/post-section-assets/post-icons/cute-whale.png");
+  background-image:url("/img/post-section-assets/post-icons/cute-whale.png");
 }
 [data-content="3"] .fact-graphic{
-  background-image:url("../img/post-section-assets/post-icons/coral-reef.png");
+  background-image:url("/img/post-section-assets/post-icons/coral-reef.png");
 }
 [data-content="3"] .fact-factoid{
   margin-top:20px;
 }
 [data-content="4"] .fact-graphic{
-  background-image:url("../img/post-section-assets/post-icons/hippo.png");
+  background-image:url("/img/post-section-assets/post-icons/hippo.png");
 }
 .fact-factoid{
   margin-bottom:0;

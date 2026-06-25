@@ -18,13 +18,13 @@
 }
 
 #follow-col .col-img{
-  background-image:url("../img/how-to-help-section-assets/follow-notification-icon.png");
+  background-image:url("/img/how-to-help-section-assets/follow-notification-icon.png");
 }
 #swag-col .col-img{
-  background-image:url("../img/how-to-help-section-assets/green-storefront-icon.png");
+  background-image:url("/img/how-to-help-section-assets/green-storefront-icon.png");
 }
 #donate-col .col-img{
-  background-image:url("../img/how-to-help-section-assets/heart-coin.png");
+  background-image:url("/img/how-to-help-section-assets/heart-coin.png");
 }
 
 /*tablet*/
