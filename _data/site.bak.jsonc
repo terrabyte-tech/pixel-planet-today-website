@@ -1,0 +1,40 @@
+{
+  "templateVersion": "1.4.0", // DEPRECATED; if using Terrabyte legacy template process
+  "terrabyteWebUI": "true", // if utilizing the Terrabyte Web UI package (for developer reference)
+  "terrabyteStarterVersion": "1.0.1", // if utilizing the Terrabyte 11ty Starter, displays the version number
+  "project": "Project Name", // surfaces in console logs when documenting project scripts have loaded; "Canapi" creates link to shared Canapi styles in <head>
+  //  options: "Canapi", "Terrabyte", "Wasted Space"
+  "title": "Website Title", // surfaces as title in browser tab; prefix for page title if there is a "subtitle" in page's frontmatter.
+  "url": "https://www.terrabyte.eco", // URL of the website's homepage; surfaces in site metadata (canonical url, site logo paths), sitemap generation, and site manifest
+  "author": "Terrabyte", // surfaces in metadata for site author
+  "brand": "Terrabyte", // unclear where this actually surfaces...
+  "keywords": "terrabyte, eco, technology, green tech, omaha, nebraska, silicon prairie", // site-wide keywords surfaces in metadata in <head>. Page-sepecific keywords should be added to page's frontmatter
+  "language": "en-US", // currently not supported/surfaces, but would be applied to the <htrml> tag for language support
+  "description": "Terrabyte is green tech company based in Omaha, NE.", // surfaces in meta/social descriptions
+  // surfaces as the metadata for "theme color" (mobile tab background color)
+  // options: any hex code; "Canapi" uses #46af71, "Terrabyte" uses #0A8C61, "Pixel Planet Today" uses #388841, "Wasted Space" uses #83769c
+  "accentColor": "#0A8C61",
+  // default color theme for the website (before user selects a theme)
+  // options: system (match system settings), light, dark 
+  "defaultTheme": "system",
+  "backgroundColor": "#333333", // currently not supported/surfaces
+  "foregroundColor": "#ffffff", // currently not supported/surfaces
+  // remove if no particular style set; determines additional CSS included in <head>
+  // options: "pixel"
+  "styleType": "pixel",
+  // defines the type of schema metadata/structure
+  // options: "Thing" (default), "Organization"
+  "schemaType": "Thing",
+  // only used if the website is for Terrabyte itself (as an organization)
+  "schemaType": "Organization",
+  // only used when outlining that a website entity is the same as social media handles
+  "sameAs": [],
+  // surfaces in CSS references to font families
+  // Canapi font families
+  "fontsRel": "https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Manrope:wght@400;800&display=swap",
+  // Pixel font families
+  "fontsRel": "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap",
+  "iconsRel": "", // URL for an icon set; remove if none
+  // Canapi API key; remove if no Canapi integration
+  "canapiKey": ""
+}

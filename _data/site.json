@@ -1,0 +1,20 @@
+{
+  "terrabyteWebUI": "true",
+  "terrabyteStarterVersion": "1.1.1",
+  "project": "Pixel Planet Today",
+  "title": "Pixel Planet Today",
+  "url": "https://www.pixelplanettoday.com",
+  "author": "Terrabyte",
+  "brand": "Terrabyte",
+  "keywords": "terrabyte, eco, education, green tech, omaha, nebraska, silicon prairie, environmental, facts, illustration, pixel art, graphic design, 8 bit, 16 bit, environment, climate change, climate crisis, endangered animals, health issues, rising sea levels, go green, ecology, conservation, carbon footprint, carbon, enviroaction, enviroart, ecoart, global warming, save the planet, plastic pollution, sixth extinction, current, issues, pixel planet, pixel planet today, creative, pinekeepers, wasted space, tech, greentech",
+  "language": "en-US",
+  "description": "Pixel Planet Today is a project aimed at raising an appreciation for Mother Nature by combining pixel art with facts about the planet.",
+  "accentColor": "#388841",
+  "defaultTheme": "system",
+  "styleType": "pixel",
+  "backgroundColor": "#333333",
+  "foregroundColor": "#ffffff",
+  "schemaType": "Thing",
+  "sameAs": [],
+  "fontsRel": "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+}

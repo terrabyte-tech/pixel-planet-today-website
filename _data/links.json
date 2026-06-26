@@ -1,0 +1,96 @@
+{
+  "socials": [
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "href": "https://www.instagram.com/pixelplanettoday/",
+      "ariaLabel": "Pixel Planet Today on Instagram (opens in new window)"
+    },
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "href": "https://www.facebook.com/pixelplanettoday",
+      "ariaLabel": "Pixel Planet Today on Facebook (opens in new window)"
+    },
+    {
+      "id": "wdht",
+      "label": "We Don't Have Time",
+      "href": "https://app.wedonthavetime.org/profile/pixelplanettoday",
+      "ariaLabel": "Pixel Planet Today on We Don't Have Time (opens in new window)"
+    },
+    {
+      "id": "giphy",
+      "label": "Giphy",
+      "href": "https://giphy.com/pixelplanettoday",
+      "ariaLabel": "Pixel Planet Today on Giphy (opens in new window)"
+    },
+    {
+      "id": "blog",
+      "label": "Blog",
+      "href": "https://blog.pixelplanettoday.com",
+      "ariaLabel": "Pixel Planet Today blog (opens in new window)"
+    },
+    {
+      "id": "shop",
+      "label": "Shop",
+      "href": "https://shop.pixelplanettoday.com",
+      "ariaLabel": "Pixel Planet Today webstore (opens in new window)"
+    }
+  ],
+  "linkSections": [
+    {
+      "label": "Highlights", "linkItems": [
+        {
+          "label": "Become a Pixel Peep (Wallpaper Fan Club)",
+          "href": "https://patreon.com/terrabyte_tech",
+          "style": ""
+        },
+        {
+          "label": "An API for planting trees???",
+          "href": "https://canapi.io",
+          "style": "website"
+        },
+        {
+          "label": "Shop new stuff!",
+          "href": "https://shop.pixelplanettoday.com",
+          "style": "shop"
+        }
+      ]
+    },
+    {
+      "label": "The Usual", "linkItems": [
+        {
+          "label": "Website",
+          "href": "https://pixelplanettoday.com",
+          "style": "website"
+        },
+        {
+          "label": "Newsletter",
+          "href": "https://pixelplanettoday.com/#newsletter",
+          "style": "newsletter"
+        },
+        {
+          "label": "Blog",
+          "href": "https://blog.pixelplanettoday.com",
+          "style": "blog"
+        },
+        {
+          "label": "Wasted Space Beta",
+          "icon": "",
+          "href": "https://terrabyte.eco/wasted-space",
+          "styleClass": ""
+        },
+        {
+          "label": "Terrabyte Website",
+          "href": "https://terrabyte.eco",
+          "style": "terrabyte"
+        },
+        {
+          "label": "About Us",
+          "href": "https://terrabyte.eco/about-us",
+          "style": "terrabyte"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+<div class="socials-container max-width" data-au="flex-container justify-center mobile-flex-wrap xsmall-gap">
+  {% for link in links.socials %}
+    <a class="pixel-social-icon {{ link.id }}-icon" href="{{ link.href }}" target="_blank" aria-label="{{ link.ariaLabel }}"></a>
+  {% endfor %}
+</div>

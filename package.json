@@ -1,0 +1,30 @@
+{
+  "name": "pixel-planet-today-website",
+  "version": "1.0.0",
+  "description": "The official Pixel Planet Today website (pixelplanettoday.com).",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terrabyte-tech/pixel-planet-today-website.git"
+  },
+  "keywords": [
+    "11ty"
+  ],
+  "author": "Terrabyte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terrabyte-tech/pixel-planet-today-website/issues"
+  },
+  "homepage": "https://https://github.com/terrabyte-tech/pixel-planet-today-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "cheerio": "^1.1.2"
+  },
+  "dependencies": {
+    "@terrabyte/web-ui": "github:terrabyte-tech/terrabyte-web-ui"
+  }
+}
