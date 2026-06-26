@@ -1,12 +1,5 @@
-<div class="max-width" data-au="flex-width flex-container justify-center mobile-flex-wrap small-gap">
-  {% for link in socials %}
-    {# <a class="social icon-container" href="{{ link.url }}" target="_blank" aria-label="{{ link.ariaLabel }}">
-      <div class="icon">
-        <svg viewBox="0 0 50 50" role="presentation">
-          <use href="#{{ link.id }}-icon"/>
-        </svg>
-      </div>
-    </a> #}
-    <a class="pixel-social-icon {{ link.id }}-icon" href="{{ link.url }}" target="_blank" aria-label="{{ link.ariaLabel }}"></a>
+<div class="max-width" data-au="flex-width flex-container justify-center mobile-flex-wrap xsmall-gap">
+  {% for link in links.socials %}
+    <a class="pixel-social-icon {{ link.id }}-icon" href="{{ link.href }}" target="_blank" aria-label="{{ link.ariaLabel }}"></a>
   {% endfor %}
 </div>
