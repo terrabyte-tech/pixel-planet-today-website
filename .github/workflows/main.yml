@@ -1,17 +1,26 @@
-# push site to prod server on main commit/merge
-
 on:
   push:
     branches:
       - main
-name: Deploy website (prod) over SFTP
+name: Build and deploy website (prod)
 jobs:
   deploy_job:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '23'
+      
+    - name: Install dependencies
+      run: npm install
+      
+    - name: Build site
+      run: npx eleventy
 
     - name: Deploy file(s)
       uses: wlixcc/SFTP-Deploy-Action@v1.2.4
@@ -20,14 +29,5 @@ jobs:
         username: ${{ secrets.sftp_username }}
         password: ${{ secrets.sftp_password }}
         port: 22
-        local_path: './*'
-        remote_path: ${{ secrets.sftp_remote_path_prod }}
-    - name: Deploy file(s)
-      uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      with:
-        server: ${{ secrets.sftp_server }}
-        username: ${{ secrets.sftp_username }}
-        password: ${{ secrets.sftp_password }}
-        port: 22
-        local_path: './*'
+        local_path: './_site/*'
         remote_path: ${{ secrets.sftp_remote_path_prod }}
