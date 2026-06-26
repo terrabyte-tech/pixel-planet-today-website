@@ -1,17 +1,19 @@
-.section-content{
+/* stylesheet only utilized/imported on the `/links` page (added in frontmatter) */
+main .section-content{
   padding-top:100px;
   padding-bottom:100px;
+  max-width:800px;
 }
 
 /* top logo & social icons */
+main .socials-container{
+  gap: var(--space-medium);
+}
 #links-logo{
   margin:10px auto 50px auto;
   background-image:url("/img/anim-logo.gif");
   max-width:450px;
   height:120px;
-}
-.social-icons-container{
-  margin-bottom:70px;
 }
 
 .link-row{
@@ -20,11 +22,6 @@
   background-color: #333333;
 }
 
-/* overwrite shared */
-.link-row h1,
-.link-row h2{
-  /* margin:5px 0 0 20px; */
-}
 
 /* icons and hover states */
 /* icons from spritesheet (default states are determined in general-styles) */
@@ -210,7 +207,10 @@
 
 
 @media only screen and (max-width:615px){
-  .section-content{
+  .header-logo-container > a{
+    display:none;
+  }
+  main .section-content{
     padding:30px;
   }
 }
