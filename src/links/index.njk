@@ -1,0 +1,38 @@
+---
+subtitle: Links
+layout: /layouts/project-base.njk
+keywords: links, social media, linktree, linkinbio, important links
+styles: /css/links-styles.css
+---
+
+<section class="">
+  <div class="section-content" data-au="flex-container flex-vertical large-gap">
+    <h1 class="sr-only">Pixel Planet Today Links</h1>
+
+    <div id="links-logo" data-au="flex-width"></div>
+
+    {% include "partials/socials.njk" %}
+
+    {% for section in linkSections %}
+      <div class="" data-au="flex-container flex-vertical small-gap">
+        <div class="section-header">
+          <h2>{{ section.label }}</h2>
+        </div>
+
+        <div class="" data-au="flex-container flex-vertical xsmall-gap">
+          {% for item in section.linkItems %}
+            <a class="link-row {{ item.style }}" data-au="flex-container align-center small-gap" href="{{ item.href }}" target="_blank" aria-label="{{ item.label }} (link opens in new window)">
+              <div class="set-width">
+                <div class="pixel-social-icon {{ item.style }}-icon"></div>
+              </div>
+              <div data-au="flex-width">
+                <h3>{{ item.label }}</h3>
+              </div>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  
+</section>

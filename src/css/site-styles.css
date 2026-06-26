@@ -94,7 +94,7 @@ header.scrolled .header-logo{
 /* mobile hamburger menu styles */
 .mobile-menu-icon{
   display: inline-block;
-  background-image:url("/img/ui/hamburger-menu-icon.png");
+  background-image:url("/img/pixel/ui/hamburger-menu-icon.png");
   width:24px;
   height:24px;
 }
