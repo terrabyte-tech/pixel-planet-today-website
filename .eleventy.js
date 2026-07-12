@@ -39,6 +39,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/*.ico");
   eleventyConfig.addPassthroughCopy("src/*.png");
+  eleventyConfig.addPassthroughCopy("src/blog/css");
+  eleventyConfig.addPassthroughCopy("src/blog/js");
+  eleventyConfig.ignores.add("src/blog/README.md");
 
   eleventyConfig.addPassthroughCopy({
     "node_modules/@terrabyte/web-ui/css": "css",
@@ -55,6 +58,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/css");
   eleventyConfig.addWatchTarget("src/js");
   eleventyConfig.addWatchTarget("src/img");
+  eleventyConfig.addWatchTarget("src/blog/css");
+  eleventyConfig.addWatchTarget("src/blog/js");
   eleventyConfig.addWatchTarget("node_modules/@terrabyte/web-ui");
 
 // Shortcodes
