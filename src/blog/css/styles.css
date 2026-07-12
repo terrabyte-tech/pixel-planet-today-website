@@ -8,7 +8,11 @@ body, ul, ol, li, button, input, optgroup, select, textarea,
 	font-size:22px!important;
 }
 :root{
-	--pagination--font-family:VT323;
+    --global--font-primary: 'Press Start 2P', sans-serif;
+    --global--font-secondary: 'VT323', sans-serif;
+	--quote--font-family:'VT323', sans-serif;
+	--pagination--font-family:'VT323', sans-serif;
+    --accent: #388841;
 }
 
 /* layout */
@@ -18,6 +22,15 @@ body, ul, ol, li, button, input, optgroup, select, textarea,
 }
 
 /* shared style changes */
+.wp-block-quote,
+blockquote{
+    border-left:5px solid var(--accent);
+    padding-left:2rem;
+}
+.wp-block-quote:before{
+    font-size:2.2em;
+    line-height:1em;
+}
 a{
 	transform: scale(1);
 	position: relative;
