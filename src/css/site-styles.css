@@ -44,7 +44,8 @@ nav a{
   padding:7px 13px;
   font-size: 14px;
   font-family: var(--primary-font);
-  transform:scale(1);
+  /* prevent scaling transitions on main nav so link underlines ALWAYS align */
+  transform:scale(1)!important;
 	position:relative;
 	display:inline-block;
   letter-spacing: normal;
