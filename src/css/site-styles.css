@@ -101,7 +101,7 @@ header.scrolled .header-logo{
 }
 
 /* responsive */
-@media only screen and (max-width:615px){
+@media only screen and (max-width:600px){
   nav{
     flex-wrap:wrap;
   }

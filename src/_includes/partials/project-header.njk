@@ -6,10 +6,10 @@
         <div class="header-logo ppt-logo" data-au="set-width"></div>
       </a>
     </div>
-    <div data-mobile-menu-trigger class="show-for-mobile" data-au="flex-container all-center">
+    <div data-mobile-menu-trigger data-adaptive="mobile" data-au="flex-container all-center">
       <a class="mobile-menu-icon" aria-label="Toggle mobile navigation"></a>
     </div>
-    <nav class="show-for-desktop show-for-tablet" data-au="set-width flex-container align-center">
+    <nav data-adaptive="tablet desktop" data-au="set-width flex-container align-center">
       <a class="{% if navSelected == 'home' %}selected{% endif %}" href="/">Home</a>
       <!-- <a class="" href="/links/index.html">Links</a> -->
       <a class="{% if navSelected == 'shop' %}selected{% endif %}" href="https://shop.pixelplanettoday.com">Shop</a>
